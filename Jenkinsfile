@@ -11,11 +11,19 @@ metadata:
   name: hugo-pod
 spec:
   containers:
+    - name: jnlp
+      volumeMounts:
+      - mountPath: /home/jenkins/.ssh
+        name: volume-known-hosts
     - name: hugo
       image: eclipsecbi/hugo:0.42.1
       command:
       - cat
       tty: true
+  volumes:
+  - configMap:
+      name: known-hosts
+    name: volume-known-hosts
 """
     }
   }
@@ -34,9 +42,12 @@ spec:
     stage('Checkout www repo') {
       steps {
         dir('www') {
-            git branch: '$env.BRANCH_NAME',
-                url: 'ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git',
-                credentialsId: 'git.eclipse.org-bot-ssh'
+            sshagent(['git.eclipse.org-bot-ssh']) {
+                sh '''
+                    git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
+                    git checkout -b ${BRANCH_NAME}
+                '''
+            }
         }
       }
     }
@@ -68,7 +79,7 @@ spec:
       when {
         anyOf {
           branch "master"
-          branch "stagin"
+          branch "staging"
         }
       }
       steps {
@@ -83,7 +94,7 @@ spec:
                   git config --global user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  git push origin HEAD:$env.BRANCH_NAME
+                  git push origin HEAD:${BRANCH_NAME}
                 else
                   echo "No change have been detected since last build, nothing to publish"
                 fi
