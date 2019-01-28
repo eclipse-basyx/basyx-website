@@ -1,4 +1,4 @@
-baseurl = "http://localhost/kuksa/"
+baseurl = "http://localhost/basyx/"
 #baseurl = "http://localhost/"
 #baseurl = ""
 title = "Eclipse BaSyx"
@@ -110,12 +110,12 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = ""
 
-    #copyright = "Copyright © 2018 The Eclipse Foundation. All Rights Reserved."
+    #copyright = "Copyright © 2019 The Eclipse Foundation. All Rights Reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/kuksa-logo-h-209x79.png"
+    logo = "img/basyxlogotest.png"
    #address = """<p><strong>Universal Ltd.</strong>
    #     <br>13/25 New Avenue
    #     <br>Newtown upon River
