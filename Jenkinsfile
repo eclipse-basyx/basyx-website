@@ -45,7 +45,7 @@ spec:
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
                     git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
-                    git checkout -b ${BRANCH_NAME}
+                    git checkout ${BRANCH_NAME}
                 '''
             }
         }
