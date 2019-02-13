@@ -33,6 +33,10 @@ spec:
     PROJECT_BOT_NAME = "BaSyx Bot" // Capitalize the name
   }
  
+ triggers { pollSCM('H/10 * * * *') 
+
+ }
+
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
