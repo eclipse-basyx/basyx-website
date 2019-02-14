@@ -71,23 +71,23 @@ paginate = 10
 #    url = "http://facebook.com"
 #    pre = "<i class='fa fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com/Appstacle"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+#[[menu.topbar]]
+#   weight = 3
+#   name = "Twitter"
+#   url = "http://twitter.com/Appstacle"
+#   pre = "<i class='fa fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:kuksa-dev@eclipse.org"
+    url = "mailto:basyx-dev@eclipse.org"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "Admin"
-    defaultKeywords = ["iot", "smart mobility", "kuksa", "appstacle"]
-    defaultDescription = "Eclipse KUKSA community website"
+    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basyx", "smart production", "digitalization", "cyber physical systems"]
+    defaultDescription = "Eclipse BaSyx community website"
 
     # Google Maps API key (if not set will default to not passing a key.)
     #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
