@@ -31,24 +31,29 @@ paginate = 10
     url  = "/about/"
     weight = 15
 
+#[[menu.main]]
+#   name = "Blog"
+# 	url  = "/blog/"
+# 	weight = 20
+	
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 20
+    name = "Use Cases"
+    url  = "/use case/"
+    weight = 25
+	
+#[[menu.main]]
+#    name = "Forum"
+#    url  = "https://www.eclipse.org/forums/index.php/f/386/"
+#    weight = 30
 
 [[menu.main]]
-    name = "Forum"
-    url  = "https://www.eclipse.org/forums/index.php/f/386/"
+    name = "Documentation"
+    url  = "https://wiki.eclipse.org/BaSyx"	
     weight = 30
 
 [[menu.main]]
-    name = "Resources"
-    url  = "/resources/"
-    weight = 40
-
-[[menu.main]]
-    name = "PMI Community"
-    url  = "https://projects.eclipse.org/projects/iot.kuksa"
+    name = "Download"
+    url  = "https://projects.eclipse.org/projects/technology.basyx/downloads"	
     weight = 40
 
 
@@ -62,7 +67,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/eclipse?utf8=✓&q=kuksa"
+    url = "https://projects.eclipse.org/projects/technology.basyx/downloads"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 #[[menu.topbar]]
@@ -129,7 +134,7 @@ paginate = 10
    # longitude = "-77.028333"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+#    blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -174,10 +179,10 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Our latest news"
     subtitle = ""
 
 [params.about]
     enable = true
-    title = "ITEA3 Project"
+    title = "Eclipse BaSyx Project"

@@ -18,8 +18,8 @@ The Project is actively supported by the German <a href="https://www.basys40.de"
 </p>
 
 <p style="text-align:center;">
-	<a href="EKuksa.png">
-		<img src="EKuksa.png"
-			alt="KUKSA architecture" width="60%">
+	<a href="SmartIndustry.png">
+		<img src="SmartIndustry.png"
+			alt="Smart Industry" width="60%">
 	</a>
 </p>
