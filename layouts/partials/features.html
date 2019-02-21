@@ -15,10 +15,21 @@
 		{{ end }}
 				<div class="col-md-4">
                     <div class="box-simple">
-                        <div class="icon">
-                            <i class="{{ .icon }}"></i>
-                        </div>
-                        <h3>{{ $element.name }}</h3>
+                      {{ if or (isset $element "icon") (isset $element "image") }}
+                          {{ if isset $element "link"}}<a class="icon" href="{{ $element.link }}">{{ else }}<span class="icon">{{ end }}
+                            {{ if isset $element "icon" }}
+                              <i class="{{ $element.icon }}"></i>
+                            {{ end }}
+                            {{ if isset $element "image" }}
+                              <img src="{{ $element.image }}">
+                            {{ end }}
+                          {{ if isset $element "link"}}</a>{{ else }}</span>{{ end }}
+                        {{ end }}
+                        <h3>
+                          {{ if isset $element "link"}}<a href="{{ $element.link }}">{{ end }}
+                            {{ $element.name }}
+                          {{ if isset $element "link"}}</a>{{ end }}
+                        </h3>
                         <p>{{ $element.description | markdownify }}</p>
                     </div>
                 </div>
