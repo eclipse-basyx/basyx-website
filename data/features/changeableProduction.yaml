@@ -1,0 +1,12 @@
+weight: 1
+name: "Changeable Production To Enable Profitable Lot Size 1"
+description: "Implementing changeable production, mass producing individualized goods and creating competitive advantage by reacting efficiently to changing market demands"
+
+# Uncomment to add a link
+# link: "[link]"
+
+# Use either an image OR an icon
+# image: "[image-path]"
+icon: "fas fa-pallet"
+#"fas fa-industry"
+#"fas fa-cubes"

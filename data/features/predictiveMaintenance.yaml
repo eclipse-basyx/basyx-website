@@ -1,0 +1,13 @@
+weight: 5
+name: "Predictive Maintenance"
+description: "Increasing machine uptime and availability and optimizing maintenance downtimes"
+
+# Uncomment to add a link
+# link: "[link]"
+
+# Use either an image OR an icon
+# image: "[image-path]"
+icon: "fas fa-tools"
+#"fas fa-wrench"
+#"fas fa-user-cog"
+#"fas fa-cogs"

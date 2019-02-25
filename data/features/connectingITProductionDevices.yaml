@@ -1,0 +1,11 @@
+weight: 2
+name: "Connecting IT and production devices on the shop-floor"
+description: "Monitoring multiple devices from one location, creating dashboards that combine data sources, highlighting potential optimizations and live production data"
+
+# Uncomment to add a link
+# link: "[link]"
+
+# Use either an image OR an icon
+# image: "[image-path]"
+icon: "fas fa-network-wired"
+#"fas fa-sitemap"    
