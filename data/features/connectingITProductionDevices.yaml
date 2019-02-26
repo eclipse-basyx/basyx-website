@@ -3,7 +3,7 @@ name: "Connecting IT and production devices on the shop-floor"
 description: "Monitoring multiple devices from one location, creating dashboards that combine data sources, highlighting potential optimizations and live production data"
 
 # Uncomment to add a link
-# link: "[link]"
+link: "/basyx/use-case/connectingitwithproductiondevices"
 
 # Use either an image OR an icon
 # image: "[image-path]"

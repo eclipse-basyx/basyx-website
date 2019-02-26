@@ -3,7 +3,7 @@ name: "Predictive Maintenance"
 description: "Increasing machine uptime and availability and optimizing maintenance downtimes"
 
 # Uncomment to add a link
-# link: "[link]"
+link: "/basyx/use-case/predictivemaintenance"
 
 # Use either an image OR an icon
 # image: "[image-path]"

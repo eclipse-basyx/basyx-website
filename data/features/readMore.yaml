@@ -3,7 +3,7 @@ name: "read more"
 description: "Click here to read more about the use cases"
 
 # Uncomment to add a link
-# link: "[link]"
+link: "/basyx/use-case"
 
 # Use either an image OR an icon
 # image: "[image-path]"

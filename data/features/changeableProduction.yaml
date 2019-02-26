@@ -3,7 +3,7 @@ name: "Changeable Production To Enable Profitable Lot Size 1"
 description: "Implementing changeable production, mass producing individualized goods and creating competitive advantage by reacting efficiently to changing market demands"
 
 # Uncomment to add a link
-# link: "[link]"
+link: "/basyx/use-case/changeableproduction"
 
 # Use either an image OR an icon
 # image: "[image-path]"
