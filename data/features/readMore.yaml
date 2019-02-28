@@ -1,6 +1,6 @@
 weight: 6
 name: "read more"
-#description: ""
+description: ""
 
 # Uncomment to add a link
 link: "/basyx/use-case"
