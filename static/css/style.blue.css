@@ -131,7 +131,7 @@ div.section {
   line-height: 80px;
   border-radius: 40px;
   border: solid 1px #fff;
-  font-size: 20px;
+  font-size: 30px;
 }
 .icon.icon-lg {
   font-size: 30px;
@@ -158,6 +158,11 @@ div.section {
 ul.list-style-none {
   list-style: none;
 }
+ul.-list-style{
+	font-family: Roboto, Helvetica, Arial, Sans-Serif 
+}
+
+
 #text-page h1,
 #text-page h2,
 #text-page h3 {
@@ -617,8 +622,8 @@ fieldset[disabled] .btn-template-main.active {
 fieldset[disabled] .btn-template-transparent-primary,
 .btn-template-transparent-primary.disabled:hover,
 .btn-template-transparent-primary[disabled]:hover,
-fieldset[disabled] .btn-template-transparent-primary:hover,
 .btn-template-transparent-primary.disabled:focus,
+fieldset[disabled] .btn-template-transparent-primary:hover,
 .btn-template-transparent-primary[disabled]:focus,
 fieldset[disabled] .btn-template-transparent-primary:focus,
 .btn-template-transparent-primary.disabled:active,
@@ -627,8 +632,8 @@ fieldset[disabled] .btn-template-transparent-primary:active,
 .btn-template-transparent-primary.disabled.active,
 .btn-template-transparent-primary[disabled].active,
 fieldset[disabled] .btn-template-transparent-primary.active {
-  background-color: transparent;
   border-color: #ffffff;
+  background-color: transparent;
 }
 .btn-template-transparent-primary .badge {
   color: transparent;
@@ -1799,14 +1804,14 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 20px;
 }
 .bar .dark-mask {
-  position: absolute;
+  position: absolute;  
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 0.45;
+  filter: alpha(opacity=45);
 }
 .portfolio.no-space {
   padding: 0 15px;

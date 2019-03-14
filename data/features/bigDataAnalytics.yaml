@@ -6,7 +6,8 @@ link: "/basyx/use-case/bigdataanalytics"
 
 # Use either an image OR an icon
 # image: "[image-path]"
-icon: "fas fa-chart-line"
+icon: "fa fa-line-chart"
+
 #"far fa-chart-bar"
 #"fab fa-mixcloud"
 #"fas fa-database"

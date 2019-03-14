@@ -7,6 +7,6 @@ link: "/basyx/use-case/changeableproduction"
 
 # Use either an image OR an icon
 # image: "[image-path]"
-icon: "fas fa-pallet"
+icon: "fa fa-industry"
 #"fas fa-industry"
 #"fas fa-cubes"
