@@ -12,3 +12,10 @@ Industrie 4.0 is about more efficient mass-production processes, and mass-custom
 	<li><b>Production as a Service</b></br>Production-as-a-Service changes the business model of manufacturers from selling produced goods to becoming the sole operator of a plant. Production is on a contract basis that guarantees access to manufacturing machines and resource availability. Manufacturing companies can focus on their core business: the manufacturing of goods. Customers can save time and costs, as well as react quickly to changing lot sizes. For smaller production companies there is an opportunity to sell selected machines via production-as-a-service models to compensate unused times. Companies that produce similar goods may implement production-as-a service as load-balancing to compensate periods with fewer requests and, at the same time, enable handling of requests that would be too large for their own machines. </li>
 </ol>
 <p/>
+<!--
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/ConnectingITandDevices.jpg">
+   <img src="/basyx/use case/images/ConnectingITandDevices.jpg" width="90%" alt=""/>
+ </a>
+</p>
+-->
