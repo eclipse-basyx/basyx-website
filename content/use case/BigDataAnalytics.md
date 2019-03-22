@@ -16,3 +16,8 @@ Every factory device creates a continuous stream of data. Data analytics can pro
 <p class="lead">
 Data analytics requires the combination of data from different sources, i.e. production devices, as well as IT servers. The ability of Eclipse BaSyx to structure machine and product data in Asset Administration Shells, enriching both with semantic information, then combining them, is the enabler for big data analysis. System architects can freely choose which cloud optionally preprocessed data is transferred. This ensures that data ownership remains with product and machine owners. 
 <p/>
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/BigDataAnalytics.jpg">
+   <img src="/basyx/use case/images/BigDataAnalytics.jpg" width="90%" alt=""/>
+ </a>
+</p>

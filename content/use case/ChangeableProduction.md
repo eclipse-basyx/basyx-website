@@ -10,3 +10,8 @@ Current production industry is designed for large lot sizes. Due to the shorter 
 <p class="lead">
 Eclipse BaSyx introduces service oriented programming for devices. PLC controllers implement real-time production services, an orchestrator controls service invocation, e.g. based on a recipe. This explicit process modeling enables rapid changes and removes side effects. BaSyx introduces the required interoperability and abstraction with the concept of the Asset Administration Shell and service interfaces. Through the standardization inherent in the Asset Administration Shell, devices may be replaced by another device with equal service interfaces, without having to change the plant application. 
 <p/>
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/ChangableProduction.jpg">
+   <img src="/basyx/use case/images/ChangableProduction.jpg" width="90%" alt=""/>
+ </a>
+</p>

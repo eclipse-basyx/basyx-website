@@ -10,3 +10,8 @@ Walking around the shop-floor to manually query machine states is inefficient an
 <p class="lead">
 The BaSyx Virtual Automation Bus (VAB) enables machine to machine communication across the layers of the automation pyramid; shop-floor devices can directly interact with enterprise resource planning (ERP) systems, even if they use different protocols. Dashboards show focused process views and enable live monitoring of products and production processes. They enable workers and operators to monitor production processes, understand them, evaluate potential optimization, and to understand the impact of every production station on organizational success.  Customers may access live production data to monitor the progress of their orders. Logistics may be dispatched on the spot to save storage space.
 <p/>
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/ConnectingITandDevices.jpg">
+   <img src="/basyx/use case/images/ConnectingITandDevices.jpg" width="90%" alt=""/>
+ </a>
+</p>
