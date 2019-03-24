@@ -12,3 +12,8 @@ Repairing a device once it’s ‘broken’ can lead to unpredictable and expens
 	<li>Required spare parts may be ordered just in time, saving storage space and minimizing down times.</li> 
 </ol>
 <p/>
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/PredictiveMaintenance.jpg">
+   <img src="/basyx/use case/images/PredictiveMaintenance.jpg" width="90%" alt=""/>
+ </a>
+</p>
