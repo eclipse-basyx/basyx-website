@@ -1,11 +1,11 @@
-weight: 4
+weight: 3
 name: "Enabler Of Big Data Analytics"
 description: "Connecting production devices on the shop-floor with data analysis on the office-floor, adapting data provided by devices"
 # Uncomment to add a link
 link: "/basyx/use-case/bigdataanalytics"
 
 # Use either an image OR an icon
-# image: "[image-path]"
+#image: ""
 icon: "fa fa-line-chart"
 
 #"far fa-chart-bar"

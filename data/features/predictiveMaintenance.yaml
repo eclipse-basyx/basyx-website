@@ -1,6 +1,6 @@
 weight: 5
 name: "Predictive Maintenance"
-description: "Increasing machine uptime and availability and optimizing maintenance downtimes"
+description: "Increasing machine uptime and availability as well as optimizing maintenance downtimes"
 
 # Uncomment to add a link
 link: "/basyx/use-case/predictivemaintenance"
