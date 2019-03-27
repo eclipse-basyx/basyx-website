@@ -14,6 +14,7 @@ Repairing a device once it’s ‘broken’ can lead to unpredictable and expens
 <p/>
 <p style="text-align:center;">
  <a href="/basyx/use case/images/PredictiveMaintenance.jpg">
-   <img src="/basyx/use case/images/PredictiveMaintenance.jpg" width="90%" alt=""/>
+   <img style="border:1px solid black" src="/basyx/use case/images/PredictiveMaintenance.jpg" width="100%" height="100%"  alt=""/>
  </a>
 </p>
+</br></br>

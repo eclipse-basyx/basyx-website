@@ -12,6 +12,7 @@ Eclipse BaSyx introduces service oriented programming for devices. PLC controlle
 <p/>
 <p style="text-align:center;">
  <a href="/basyx/use case/images/ChangableProduction.jpg">
-   <img src="/basyx/use case/images/ChangableProduction.jpg" width="90%" alt=""/>
+   <img style="border:1px solid black" src="/basyx/use case/images/ChangableProduction.jpg" border="2" width="100%" alt=""/>
  </a>
 </p>
+</br></br>

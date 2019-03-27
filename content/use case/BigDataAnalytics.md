@@ -18,6 +18,7 @@ Data analytics requires the combination of data from different sources, i.e. pro
 <p/>
 <p style="text-align:center;">
  <a href="/basyx/use case/images/BigDataAnalytics.jpg">
-   <img src="/basyx/use case/images/BigDataAnalytics.jpg" width="90%" alt=""/>
+   <img style="border:1px solid black" src="/basyx/use case/images/BigDataAnalytics.jpg" border="2" width="100%" alt=""/>
  </a>
 </p>
+</br></br>
