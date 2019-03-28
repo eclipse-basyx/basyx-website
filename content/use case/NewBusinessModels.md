@@ -1,0 +1,20 @@
+---
+title: "Enabler For New Business Models"
+#date: 2019-03-13
+tags: ["New Business Models"]
+#banner: "img/banners/banner-8.jpg"
+---
+<p class="lead">
+Industrie 4.0 is about more efficient mass-production processes, and mass-customization, the efficient and inexpensive production of small lot sizes. Industrie 4.0 is also the end-to-end digitalization of manufacturing and enables new business models. The following exemplary Industrie 4.0 business models can be implemented with Eclipse BaSyx.
+<ol type="a" class="lead">
+	<li><b>Data Brokering</b></br>Data produced in manufacturing processes is extremely valuable for equipment manufacturers and other third-party businesses since it enables prediction and optimization of manufacturing processes and product quality. Prediction models based on the combination of data from different sources will yield business advantages for companies, but they require a large data pool for their creation. Brokering of data, the ability to provide anonymized data that is compliant with the privacy of data providers, but that is a valuable source for data users, will be a key business after the fourth industrial revolution. </li></br>
+	<li><b>Virtual Prototyping & Continuous Engineering</b></br>The integration of new devices and new device programs requires a significant amount of time during a change to production. Digital device twins may reduce this required time by providing, for example interaction models that enable engineers to adjust device-to-device communication and to validate service calls, call parameter, and potential side-effects without having to stop the production line. Asset Administration Shells provide the ability to store these simulation models in sub models, and to deliver them before the physical device is delivered. Ideally, production systems can communicate with a digital twin without knowing whether the communication partner is a virtual prototype or the real asset. This significantly reduces downtimes when integrating new devices, or when changing critical processes.</li></br>
+	<li><b>Production as a Service</b></br>Production-as-a-Service changes the business model of manufacturers from selling produced goods to becoming the sole operator of a plant. Production is on a contract basis that guarantees access to manufacturing machines and resource availability. Manufacturing companies can focus on their core business: the manufacturing of goods. Customers can save time and costs, as well as react quickly to changing lot sizes. For smaller production companies there is an opportunity to sell selected machines via production-as-a-service models to compensate unused times. Companies that produce similar goods may implement production-as-a service as load-balancing to compensate periods with fewer requests and, at the same time, enable handling of requests that would be too large for their own machines. </li>
+</ol>
+<p/>
+<p style="text-align:center;">
+ <a href="/basyx/use case/images/NewBusinessModels.jpg">
+   <img style="border:1px solid black" src="/basyx/use case/images/NewBusinessModels.jpg" border="2" width="100%" alt=""/>
+ </a>
+</p>
+</br></br>
