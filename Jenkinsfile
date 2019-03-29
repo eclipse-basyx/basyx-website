@@ -87,7 +87,7 @@ spec:
         }
       }
       steps {
-        sh 'cp -Rvf hugo/public/* www/'
+        sh 'rm -rf www/* && cp -Rvf hugo/public/* www/'
         dir('www') {
             sshagent(['git.eclipse.org-bot-ssh']) {
                 sh '''
