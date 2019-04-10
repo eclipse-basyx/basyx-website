@@ -66,9 +66,9 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 1
-    name = "GitHub"
+    name = "Git Repository"
     url = "https://projects.eclipse.org/projects/technology.basyx/downloads"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    pre = "<i class='fa fa-2x fa-git-square'></i>"
 
 #[[menu.topbar]]
 #    weight = 2
