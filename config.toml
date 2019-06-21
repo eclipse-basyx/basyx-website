@@ -172,7 +172,7 @@ paginate = 10
     url  = "http://www.basys40.de/wp-content/uploads/2014/09/BaSys-HP.mp4"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
