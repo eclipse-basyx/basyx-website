@@ -35,6 +35,11 @@ paginate = 10
 #   name = "Blog"
 # 	url  = "/blog/"
 # 	weight = 20
+
+#[[menu.main]]
+	#name = "Knowledge Base"
+	#url  = "/kb/"
+	#weight = 20
 	
 [[menu.main]]
     name = "Use Cases"
