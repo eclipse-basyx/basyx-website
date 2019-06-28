@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.basys40.de/kb/capability.owl#"
-     xml:base="http://www.basys40.de/kb/capability.owl"
+<rdf:RDF xmlns="http://www.eclipse.org/basyx/kb/capability.owl#"
+     xml:base="http://www.eclipse.org/basyx/kb/capability.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.eclipse.org/basyx/kb/capability.owl"/>
-    
+    <owl:Ontology rdf:about="http://www.eclipse.org/basyx/kb/capability.owl">
+        <owl:imports rdf:resource="http://www.eclipse.org/basyx/kb/automation.owl"/>
+        <owl:imports rdf:resource="http://www.eclipse.org/basyx/kb/component.owl"/>
+    </owl:Ontology>    
 
 
     <!-- 
@@ -21,15 +23,20 @@
     
 
 
-    <!-- http://www.basys40.de/kb/capability.owl#offersCapability -->
+    <!-- http://www.eclipse.org/basyx/kb/capability.owl#offersCapability -->
 
-    <owl:ObjectProperty rdf:about="http://www.basys40.de/kb/capability.owl#offersCapability"/>
+    <owl:ObjectProperty rdf:about="http://www.eclipse.org/basyx/kb/capability.owl#offersCapability">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/component.owl#hasPart"/>
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/capability.owl#offersCapability"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
     
 
 
-    <!-- http://www.basys40.de/kb/capability.owl#requiresCapability -->
+    <!-- http://www.eclipse.org/basyx/kb/capability.owl#requiresCapability -->
 
-    <owl:ObjectProperty rdf:about="http://www.basys40.de/kb/capability.owl#requiresCapability"/>
+    <owl:ObjectProperty rdf:about="http://www.eclipse.org/basyx/kb/capability.owl#requiresCapability"/>
     
 
 
@@ -44,30 +51,18 @@
     
 
 
-    <!-- http://www.basys40.de/kb/capability.owl#Capability -->
+    <!-- http://www.eclipse.org/basyx/kb/capability.owl#OfferedCapability -->
 
-    <owl:Class rdf:about="http://www.basys40.de/kb/capability.owl#Capability"/>
-    
-
-
-    <!-- http://www.basys40.de/kb/capability.owl#CapabilityThing -->
-
-    <owl:Class rdf:about="http://www.basys40.de/kb/capability.owl#CapabilityThing"/>
-    
-
-
-    <!-- http://www.basys40.de/kb/capability.owl#OfferedCapability -->
-
-    <owl:Class rdf:about="http://www.basys40.de/kb/capability.owl#OfferedCapability">
-        <rdfs:subClassOf rdf:resource="http://www.basys40.de/kb/capability.owl#Capability"/>
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/capability.owl#OfferedCapability">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/automation.owl#Capability"/>
     </owl:Class>
     
 
 
-    <!-- http://www.basys40.de/kb/capability.owl#RequiredCapability -->
+    <!-- http://www.eclipse.org/basyx/kb/capability.owl#RequiredCapability -->
 
-    <owl:Class rdf:about="http://www.basys40.de/kb/capability.owl#RequiredCapability">
-        <rdfs:subClassOf rdf:resource="http://www.basys40.de/kb/capability.owl#Capability"/>
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/capability.owl#RequiredCapability">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/automation.owl#Capability"/>
     </owl:Class>
 </rdf:RDF>
 

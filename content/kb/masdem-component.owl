@@ -1,0 +1,681 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.eclipse.org/basyx/kb/masdem-component.owl#"
+     xml:base="http://www.eclipse.org/basyx/kb/masdem-component.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl">
+        <owl:imports rdf:resource="http://www.eclipse.org/basyx/kb/component.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveContinuousLinearComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveContinuousLinearComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveContinuousRotaryComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveContinuousRotaryComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveKinematicComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveKinematicComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveKinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponentForPositioning -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponentForPositioning">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponentWithStop -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponentWithStop">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveLinearComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedBulkMaterialOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedBulkMaterialOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedBulkMaterialReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedBulkMaterialReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedGasOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedGasOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedGasReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedGasReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedLiquidOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedLiquidOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedLiquidReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedLiquidReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedPieceGoodsOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedPieceGoodsOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRegulatedReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveKinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponentForPositioning -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponentForPositioning">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponentWithStop -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponentWithStop">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveRotaryComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedBulkMaterialOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedBulkMaterialOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedBulkMaterialReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedBulkMaterialReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedGasOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedGasOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedGasReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedGasReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedLiquidOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedLiquidOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedLiquidReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedLiquidReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedPieceGoodsOutputComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedPieceGoodsOutputComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedOutputComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveUnregulatedReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#BeamTool -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#BeamTool">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Bearing -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Bearing">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#StaticComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ChemicalReactionVessel -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ChemicalReactionVessel">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ChippingTool -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ChippingTool">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#CuttingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Chisel -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Chisel">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ChippingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Clamp -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Clamp">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#CuttingTool -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#CuttingTool">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Drill -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Drill">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ChippingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MaSDeMComponent"/>
+        <owl:disjointWith rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#SensorComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Electricity -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Electricity">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#EnergyAbsorbingConnector -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#EnergyAbsorbingConnector">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#EnergyStoringConnector -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#EnergyStoringConnector">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#FixedClapming -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#FixedClapming">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#StaticComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Gripper -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Gripper">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#GuidingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#GuidingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicConverter -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicConverter">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MotionTransmitter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#LightExposure -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#LightExposure">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MaSDeMComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MaSDeMComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/automation.owl#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Magnetism -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Magnetism">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MechanicalJoiningComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MechanicalJoiningComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MillingCutter -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MillingCutter">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ChippingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingCast -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingCast">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingDie -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingDie">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingRoll -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldingRoll">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#MotionTransmitter -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MotionTransmitter">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveBulkMaterialReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveBulkMaterialReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveDefinedPieceGoodsReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveDefinedPieceGoodsReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveGasReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveGasReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveLiquidReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveLiquidReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveUndefinedPieceGoodsReceivingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveUndefinedPieceGoodsReceivingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#PassiveReceivingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#PressMoldNegative -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#PressMoldNegative">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MoldComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Punch -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Punch">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#SplittingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#RigidConnector -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#RigidConnector">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#RivetingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#RivetingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MechanicalJoiningComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ScrewAttachment -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ScrewAttachment">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MechanicalJoiningComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#SensorComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#SensorComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MaSDeMComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#Software -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Software">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#SpeedConverter -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#SpeedConverter">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#MotionTransmitter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#SplittingTool -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#SplittingTool">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#CuttingTool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#StaticComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#StaticComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#KinematicComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#TemperatueComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#TemperatueComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#TreatmentComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#EffectiveComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#WeldingAndSolderingComponent -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#WeldingAndSolderingComponent">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#ToolingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.eclipse.org/basyx/kb/masdem-component.owl#WorkpieceCarrier -->
+
+    <owl:Class rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#WorkpieceCarrier">
+        <rdfs:subClassOf rdf:resource="http://www.eclipse.org/basyx/kb/masdem-component.owl#HandlingComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#ActiveKinematicComponent"/>
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#Connector"/>
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#MotionTransmitter"/>
+            <rdf:Description rdf:about="http://www.eclipse.org/basyx/kb/masdem-component.owl#StaticComponent"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
