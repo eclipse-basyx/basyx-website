@@ -811,8 +811,8 @@ fieldset[disabled] .btn-template-primary.active {
   width: 100%;
   height: 100%;
   background: #0cb2f0;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 .jumbotron h1,
 .jumbotron h2,
@@ -1161,7 +1161,7 @@ fieldset[disabled] .btn-template-primary.active {
   width: 100%;
   height: 100%;
   background: #0cb2f0;
-  opacity: 0.9;
+  opacity: 0.1;
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
@@ -1192,7 +1192,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #fff;
+  color: #0cb2f0;
 }
 .home-carousel h1 {
   font-weight: 700;
