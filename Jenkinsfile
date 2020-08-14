@@ -15,15 +15,20 @@ spec:
       volumeMounts:
       - mountPath: /home/jenkins/.ssh
         name: volume-known-hosts
+      - mountPath: "/home/jenkins"
+        name: "jenkins-home"
+        readOnly: false
     - name: hugo
       image: eclipsecbi/hugo:0.42.1
       command:
       - cat
       tty: true
   volumes:
-  - configMap:
+  - name: volume-known-hosts
+    configMap:
       name: known-hosts
-    name: volume-known-hosts
+  - name: "jenkins-home"
+    emptyDir: {}
 """
     }
   }
