@@ -5,7 +5,7 @@ draft: false
 type: about
 ---
 <p class="lead">
-Eclipse BaSyx is an open source platform for the next generation automation. As a reference technology  platform, the BaSyx project enables large and small industries, research institutes, academia, and interested persons, to participate in the fourth industrial revolution.
+Eclipse BaSyx is the open source platform for the next generation automation. As a reference technology  platform, the BaSyx project enables large and small industries, research institutes, academia, and interested persons, to participate in the fourth industrial revolution.
 </p>
 
 <p class="lead">

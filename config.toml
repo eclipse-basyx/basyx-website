@@ -25,22 +25,26 @@ paginate = 10
     name = "Home"
     url  = "/"
     weight = 10
+	
+[[menu.main]]
+	name = "Blog"
+	url  = "/blog/"
+ 	weight = 15
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
-    weight = 15
-
-#[[menu.main]]
-#   name = "Blog"
-# 	url  = "/blog/"
-# 	weight = 20
-
+    weight = 20
 	
 [[menu.main]]
-    name = "Use Cases"
-    url  = "/use case/"
-    weight = 25
+	name = "Success Stories"
+	url  = "/success story/"
+ 	weight = 25
+	
+#[[menu.main]]
+#    name = "Use Cases"
+#    url  = "/use case/"
+#    weight = 25
 	
 #[[menu.main]]
 #    name = "Forum"
@@ -51,6 +55,11 @@ paginate = 10
     name = "Documentation"
     url  = "https://wiki.eclipse.org/BaSyx"	
     weight = 30
+
+[[menu.main]]
+	name = "Offers"
+	url  = "/offer/"
+ 	weight = 35
 
 [[menu.main]]
     name = "Download"
