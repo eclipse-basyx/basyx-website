@@ -336,7 +336,7 @@ ul.-list-style{
 .navbar.navbar-light ul.nav > li.active > a {
   border-top: solid 5px #294d76;
   background: #fff !important;
-  color: #555555 !important;
+  color: #555555!important;
 }
 .navbar.navbar-light ul.nav > li.active > a:hover {
   border-top: solid 5px #294d76;
@@ -1160,8 +1160,8 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0cb2f0;
-  opacity: 0.1;
+  background: #999999;
+  opacity: 0;
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
@@ -1192,7 +1192,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #0cb2f0;
+  color: #555555;
 }
 .home-carousel h1 {
   font-weight: 700;
