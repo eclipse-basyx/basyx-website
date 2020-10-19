@@ -162,7 +162,6 @@ ul.-list-style{
 	font-family: Roboto, Helvetica, Arial, Sans-Serif 
 }
 
-
 #text-page h1,
 #text-page h2,
 #text-page h3 {
@@ -1261,7 +1260,7 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item {
   list-style-type: none;
   margin: 0 5px;
-  background: #fff;
+  background: #fbfbfb;
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

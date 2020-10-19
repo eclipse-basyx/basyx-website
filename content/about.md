@@ -6,14 +6,17 @@ type: about
 ---
 
 <div class="col-md-7">
+	<p style="text-align:left;">
 	
        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 			<iframe src="https://www.youtube-nocookie.com/embed/bMY8FLhjjRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
-		</div>         
+		</div>
+	</p>
    
  </div>
 
 <div class="col-md-5">
+	<p style="text-align:right;">
         <div class="block">
           <p class="lead">
 			Eclipse BaSyx is the open source implementation of the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell. 
@@ -53,6 +56,7 @@ type: about
 			The Project is actively supported by the German <a href="https://www.basys40.de" target="_blank" rel="noopener">BaSys 4.0 research project</a>, which focuses on research and specification of key Industrie 4.0 concepts, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware project. 
 			</p>
         </div>
+	</p>
 </div>
 
 
