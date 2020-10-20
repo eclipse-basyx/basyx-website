@@ -2,21 +2,27 @@
 {{ if .Site.Params.features.enable }}
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white">
+
+
     <div class="container">
-		<div class="container col-md-12 img-responsive">
-				<p style="text-align:center;">
-					<!--<a href="img/BaSyxFeatures_small.png" >	-->					
-						<img src="img/BaSyxFeatures_small.png" alt="BaSyx Features">						
-					<!--</a>-->
-				</p>
-									
-		</div>
+	
 		<div class="col-md-12">
-            <div class="heading text-center">
-                <!--<h2>{{ .Site.Params.features.title }}</h2> -->
-				<!--<h2>{{ "Features" }}</h2> -->
-            </div>
-        </div>
+			<div class="heading text-center">
+				<!--h2>{{ .Site.Params.features.title }}</h2-->
+				<!--h2>{{ "Features" }}</h2-->
+			</div>
+		</div>
+		
+		<div class="container col-md-12 img-responsive">
+			<p style="text-align:center;">
+				<!--<a href="img/BaSyxFeatures_small.png" >	-->					
+					<img src="img/BaSyxFeatures_small.png" alt="BaSyx Features">						
+				<!--/a>-->
+			</p>
+										
+		</div>
+		
+		
         {{ range $index, $element := sort .Site.Data.features "weight" }}
 		{{ if eq (mod $index 3) 0 }}
 		<div class="col-md-12">			
