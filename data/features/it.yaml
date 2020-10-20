@@ -1,0 +1,15 @@
+weight: 4
+name: "IT Systems Connectivity"
+description: "Integration with ERP, MES, and IT Infrastructure…"
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+#image: ""
+icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+

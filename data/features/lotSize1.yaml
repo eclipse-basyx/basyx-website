@@ -1,0 +1,15 @@
+weight: 2
+name: "Lot Size 1 Production"
+description: "SOA, Control Components"
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+#image: ""
+icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+

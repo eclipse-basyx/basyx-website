@@ -1,0 +1,15 @@
+weight: 1
+name: "Asset Administration Shells"
+description: "Asset Administration Shells serve as generic interfaces… Distributed, Unified interfaces, type1,2,3"
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+#image: ""
+icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+
