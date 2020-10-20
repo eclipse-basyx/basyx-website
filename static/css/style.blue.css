@@ -1283,7 +1283,7 @@ fieldset[disabled] .btn-template-primary.active {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-  color: #999999;
+  color: #555555;
   margin-bottom: 40px;
 }
 .testimonials .item .testimonial .bottom {
@@ -1314,7 +1314,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
-  color: #999999;
+  color: #555555;
   margin: 0;
   font-size: 12px;
 }
