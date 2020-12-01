@@ -36,6 +36,11 @@ paginate = 10
     url  = "/about/"
     weight = 20
 	
+#[[menu.main]]
+#	name = "Details"
+#	url  = "/"
+#	weight = 20
+	
 [[menu.main]]
 	name = "Success Stories"
 	url  = "/success story/"
@@ -145,7 +150,7 @@ paginate = 10
    # longitude = "-77.028333"
 
 [Permalinks]
-#    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
