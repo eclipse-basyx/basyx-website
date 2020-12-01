@@ -41,7 +41,7 @@ type: about
 	</p>
 
 	<p class="lead">
-		The Project is actively supported by the German <a href="https://www.basys40.de" target="_blank" rel="noopener">BaSys 4.0 research project</a>, which focuses on research and specification of key Industrie 4.0 concepts, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware project. 
+		The Project is actively supported by the German <a href="https://www.basys40.de" target="_blank" rel="noopener">BaSys 4.2 research project</a>, which focuses on research and specification of key Industrie 4.0 concepts, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware project. 
 	</p>
 
 </div>
