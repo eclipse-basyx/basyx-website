@@ -1,6 +1,7 @@
 weight: 1
 name: "Asset Administration Shells"
-description: "Asset Administration Shells serve as generic interfaces… Distributed, Unified interfaces, type1,2,3"
+description: "Asset Administration Shells (AAS) serve as unified interfaces for manufacturing assets that usually using different communication technologies. 
+<br> Eclipse BaSyx supports AAS types 1, 2 and 3."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 
