@@ -5,8 +5,8 @@ description: "Asset Administration Shells serve as generic interfaces… Distrib
 #link: "/basyx/use-case/bigdataanalytics"
 
 # Use either an image OR an icon
-#image: ""
-icon: "fa fa-line-chart"
+image: "img/features/aas.png"
+#icon: "fa fa-line-chart"
 
 #"far fa-chart-bar"
 #"fab fa-mixcloud"

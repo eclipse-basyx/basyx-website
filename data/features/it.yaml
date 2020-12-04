@@ -5,8 +5,8 @@ description: "Integration with ERP, MES, and IT Infrastructure…"
 #link: "/basyx/use-case/bigdataanalytics"
 
 # Use either an image OR an icon
-#image: ""
-icon: "fa fa-line-chart"
+image: "img/features/it.png"
+#icon: "fa fa-line-chart"
 
 #"far fa-chart-bar"
 #"fab fa-mixcloud"
