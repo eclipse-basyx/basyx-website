@@ -9,19 +9,31 @@ type: about
 
 <div class="col-md-12">
         
+	
 	<p class="lead">
-		Eclipse BaSyx is the open source implementation of the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell. 
-		It provides extendable software development kits for Java, C++, and C#.
-	</p>
-
+	Eclipse BaSyx is the open source platform for next generation automation. It's implementing the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell.  
+	Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, 
+	to participate and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the 
+	Industrie 4.0.
+	</p>	
+	
 	<p class="lead">
-		The Eclipse BaSyx platform addresses challenges such as changeable production to enable individualized goods, exploiting big data analytics and connecting heterogeneous devices and systems while minimizing downtime and other associated costs.
+	Eclipse BaSyx therefore provides common and re-useable Industrie 4.0 components and SDKs (Java, C# and C++) that support the development of new Industrie 4.0 software components 
+	to enable the rapid development of Industrie 4.0 solutions. This Eclipse BaSyx platform furthermore provides reference application scenarios for common 
+	Industrie 4.0 challenges such as changeable production to enable individualized goods, exploiting big data analytics and connecting heterogeneous devices and systems while minimizing 
+	downtime and other associated costs.
 	</p>
-
+	
+	
+	<!--<p class="lead">
+	Eclipse BaSyx is actively supported by the <a href="https://www.basys40.de/" title=""> BaSys 4.2 </a> (Homepage, in German) research project, which is 
+	funded by the German Ministry for Education and Research (BMBF, grant no. 01IS16022). BaSys 4.2 researches and specifies key concepts of Industrie 4.0, participates in standardization activities, and integrates existing 
+	standards and technologies into an Industrie 4.0 middleware.
+	</p>-->
+	
 	<p class="lead">
-		In the following video Frank Schnicke is explaining the BaSyx middleware by using a model factory (English subtitles provided).
+		In the following video Frank Schnicke is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
 	</p>
-
 
        
 </div>
@@ -32,18 +44,6 @@ type: about
 		<iframe src="https://www.youtube-nocookie.com/embed/bMY8FLhjjRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
 	</div>	
    
-</div>
-
-<div class="col-md-12">
-
-	<p class="lead">
-		You can learn more about BaSyx in our detailed documentation provided on the <a href="https://wiki.eclipse.org/BaSyx">Eclipse Foundation Wiki</a> or by contacting us on <a href="basyx-dev@eclipse.org">basyx-dev@eclipse.org</a>.
-	</p>
-
-	<p class="lead">
-		The Project is actively supported by the German <a href="https://www.basys40.de" target="_blank" rel="noopener">BaSys 4.2 research project</a>, which focuses on research and specification of key Industrie 4.0 concepts, participates in standardization activities, and integrates existing standards and technologies into an Industrie 4.0 middleware project. 
-	</p>
-
 </div>
 
  
