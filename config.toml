@@ -73,7 +73,7 @@ paginate = 10
 	
 [[menu.main]]
     name = "Contributing"
-	url  = "/contributing/"
+	url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
     weight = 50
 
 
