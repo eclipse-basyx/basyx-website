@@ -12,14 +12,14 @@ type: about
 	
 	<p class="lead">
 	Eclipse BaSyx is the open source platform for next generation automation. It's implementing the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell.  
-	Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, 
-	to participate and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the 
+	Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, 
+	to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the 
 	Industrie 4.0.
 	</p>	
 	
 	<p class="lead">
-	Eclipse BaSyx therefore provides common and re-useable Industrie 4.0 components and SDKs (Java, C# and C++) that support the development of new Industrie 4.0 software components 
-	to enable the rapid development of Industrie 4.0 solutions. This Eclipse BaSyx platform furthermore provides reference application scenarios for common 
+	Eclipse BaSyx therefore provides common and re-useable off-the shelf Industrie 4.0 components and SDKs (Java, C# and C++) that support the development of new Industrie 4.0 software components 
+	to enable the rapid development of Industrie 4.0 solutions. BaSyx furthermore supports reference application scenarios for common 
 	Industrie 4.0 challenges such as changeable production to enable individualized goods, exploiting big data analytics and connecting heterogeneous devices and systems while minimizing 
 	downtime and other associated costs.
 	</p>
@@ -32,7 +32,7 @@ type: about
 	</p>-->
 	
 	<p class="lead">
-		In the following video Frank Schnicke is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
+		In the following video Frank Schnicke (Fraunhofer IESE) is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
 	</p>
 
        
