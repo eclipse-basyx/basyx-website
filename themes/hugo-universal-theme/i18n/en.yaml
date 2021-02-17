@@ -69,3 +69,9 @@
 
 - id: publishedOn
   translation: "on"
+  
+- id: next
+  translation: "Next"
+
+- id: previous
+  translation: "Previous"
