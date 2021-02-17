@@ -1,6 +1,6 @@
 weight: 3
 name: "End-to-end Communication"
-description: "Eclipse BaSyx enables an end-to-end networking from shopfloor to IT level. This guarantees a continuous data access from IT systems to manufacutring devices."
+description: "Eclipse BaSyx enables an end-to-end networking from shopfloor to IT level. This guarantees a continuous data access from IT systems to manufacturing devices."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 
