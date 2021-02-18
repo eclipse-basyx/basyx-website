@@ -211,4 +211,4 @@ paginate = 10
 [params.testimonials]
     enable = true
     title = "Testimonials"
-    subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 Platform."
+    subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."
