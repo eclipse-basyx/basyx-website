@@ -3555,3 +3555,14 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner {
+    height: 300px;
+    width: 850px;
+}
+	

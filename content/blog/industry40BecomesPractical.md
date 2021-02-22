@@ -4,6 +4,7 @@ date: 2021-02-17
 #tags: ["ece18"]
 #categories: ["dissemination"]
 banner: "img/banners/banner-2.jpg"
+img_source: "© Fraunhofer IESE"
 ---
 
 ## Fraunhofer IESE brings flexible manufacturing to companies with Eclipse BaSyx.
