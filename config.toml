@@ -61,10 +61,10 @@ paginate = 10
     url  = "https://wiki.eclipse.org/BaSyx"	
     weight = 30
 
-[[menu.main]]
-	name = "Offers"
-	url  = "/offer/"
- 	weight = 35
+#[[menu.main]]
+#	name = "Offers"
+#	url  = "/offer/"
+# 	weight = 35
 
 [[menu.main]]
     name = "Download"
@@ -209,6 +209,6 @@ paginate = 10
     title = "Eclipse BaSyx Project"
 	
 [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."
