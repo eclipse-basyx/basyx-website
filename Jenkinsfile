@@ -1,5 +1,4 @@
 pipeline {
- 
   agent {
     kubernetes {
       label 'hugo-agent'
@@ -15,20 +14,15 @@ spec:
       volumeMounts:
       - mountPath: /home/jenkins/.ssh
         name: volume-known-hosts
-      - mountPath: "/home/jenkins"
-        name: "jenkins-home"
-        readOnly: false
     - name: hugo
       image: eclipsecbi/hugo:0.42.1
       command:
       - cat
       tty: true
   volumes:
-  - name: volume-known-hosts
-    configMap:
+  - configMap:
       name: known-hosts
-  - name: "jenkins-home"
-    emptyDir: {}
+    name: volume-known-hosts
 """
     }
   }
@@ -45,6 +39,7 @@ spec:
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
+    disableConcurrentBuilds()
   }
  
   stages {
