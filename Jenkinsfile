@@ -88,7 +88,7 @@ spec:
 	
 	stage('Run maven') {
       steps {
-        container('hugo') {
+        container('jnlp') {
           sh 'mkdir -p /home/jenkins/foobar'
         }
       }
