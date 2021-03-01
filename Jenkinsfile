@@ -49,15 +49,7 @@ spec:
     disableConcurrentBuilds()
   }
  
-  stages {
-    stage('Run maven') {
-      steps {
-        container('custom-name') {
-          sh 'mkdir -p /home/jenkins/foobar'
-        }
-      }
-    } 
-  
+  stages {    
     stage('Checkout www repo') {
       steps {
         dir('www') {
@@ -94,6 +86,15 @@ spec:
         }
       }
     }
+	
+	stage('Run maven') {
+      steps {
+        container('hugo') {
+          sh 'mkdir -p /home/jenkins/foobar'
+        }
+      }
+    } 
+	
     stage('Push to $env.BRANCH_NAME branch') {
       when {
         anyOf {
