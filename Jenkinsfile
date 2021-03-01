@@ -4,9 +4,17 @@ pipeline {
       label 'hugo-agent'
       yaml """
 apiVersion: v1
+metadata:
+  labels:
+    run: hugo
+  name: hugo-pod
 kind: Pod
 spec:
   containers:
+  - name: jnlp
+      volumeMounts:
+      - mountPath: /home/jenkins/.ssh
+        name: volume-known-hosts
   - name: hugo
     image: eclipsecbi/hugo:0.42.1
     tty: true
@@ -19,6 +27,9 @@ spec:
   volumes:
   - name: "jenkins-home"
     emptyDir: {}
+  - configMap:
+      name: known-hosts
+    name: volume-known-hosts
 """
     }
   }
