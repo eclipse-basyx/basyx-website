@@ -50,6 +50,14 @@ spec:
   }
  
   stages {
+    stage('Run maven') {
+      steps {
+        container('custom-name') {
+          sh 'mkdir -p /home/jenkins/foobar'
+        }
+      }
+    } 
+  
     stage('Checkout www repo') {
       steps {
         dir('www') {
