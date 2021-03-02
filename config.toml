@@ -25,22 +25,31 @@ paginate = 10
     name = "Home"
     url  = "/"
     weight = 10
+	
+[[menu.main]]
+	name = "Blog"
+	url  = "/blog/"
+ 	weight = 15
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
-    weight = 15
-
+    weight = 20
+	
 #[[menu.main]]
-#   name = "Blog"
-# 	url  = "/blog/"
-# 	weight = 20
-
+#	name = "Details"
+#	url  = "/"
+#	weight = 20
 	
 [[menu.main]]
-    name = "Use Cases"
-    url  = "/use case/"
-    weight = 25
+	name = "Reference Projects"
+	url  = "https://wiki.eclipse.org/BaSyx_/_Reference_Projects"
+ 	weight = 25
+	
+#[[menu.main]]
+#    name = "Use Cases"
+#    url  = "/use case/"
+#    weight = 25
 	
 #[[menu.main]]
 #    name = "Forum"
@@ -52,10 +61,20 @@ paginate = 10
     url  = "https://wiki.eclipse.org/BaSyx"	
     weight = 30
 
+#[[menu.main]]
+#	name = "Offers"
+#	url  = "/offer/"
+# 	weight = 35
+
 [[menu.main]]
     name = "Download"
     url  = "https://projects.eclipse.org/projects/technology.basyx/downloads"	
     weight = 40
+	
+[[menu.main]]
+    name = "Contributing"
+	url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
+    weight = 50
 
 
 #[[menu.main]]
@@ -92,8 +111,8 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Admin"
-    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basyx", "smart production", "digitalization", "cyber physical systems"]
-    defaultDescription = "Eclipse BaSyx community website"
+    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "ecosystem", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
+    defaultDescription = "Eclipse BaSyx Community Website"
 
     # Google Maps API key (if not set will default to not passing a key.)
     #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
@@ -116,7 +135,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = ""
 
-    #copyright = "Copyright © 2019 The Eclipse Foundation. All Rights Reserved."
+    #copyright = "Copyright © 2021 The Eclipse Foundation. All Rights Reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -136,7 +155,7 @@ paginate = 10
    # longitude = "-77.028333"
 
 [Permalinks]
-#    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -155,7 +174,7 @@ paginate = 10
 
 [params.carousel]
     enable = true
-    # All carroussel items are defined in their own files. You can find example items
+    # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more information take a look at the README.
 
@@ -188,3 +207,8 @@ paginate = 10
 [params.about]
     enable = true
     title = "Eclipse BaSyx Project"
+	
+[params.testimonials]
+    enable = false
+    title = "Testimonials"
+    subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."

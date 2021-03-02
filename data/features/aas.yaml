@@ -1,0 +1,16 @@
+weight: 1
+name: "Asset Administration Shells"
+description: "Asset Administration Shells (AAS) implement the Digital Twin and serve as unified interfaces for manufacturing assets that are usually using heterogenous communication technologies. 
+<br> Eclipse BaSyx supports AAS types 1, 2 and 3."
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+image: "img/features/aas.png"
+#icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+

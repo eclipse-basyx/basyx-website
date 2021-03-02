@@ -1,0 +1,16 @@
+weight: 4
+name: "IT Systems Connectivity"
+description: "Eclipse BaSyx integrates ERP systems, MES and the IT infrastructure with unified interfaces. 
+Data exchange between different IT systems is made easy."
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+image: "img/features/it.png"
+#icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+

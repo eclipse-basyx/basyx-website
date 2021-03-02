@@ -1,0 +1,16 @@
+weight: 2
+name: "Lot Size 1 Production"
+description: "Eclipse BaSyx enables a service-oriented production which is the key factor for a changeable production. 
+Thus, an efficient lot size one is made possible."
+# Uncomment to add a link
+#link: "/basyx/use-case/bigdataanalytics"
+
+# Use either an image OR an icon
+image: "img/features/roboter.png"
+#icon: "fa fa-line-chart"
+
+#"far fa-chart-bar"
+#"fab fa-mixcloud"
+#"fas fa-database"
+
+

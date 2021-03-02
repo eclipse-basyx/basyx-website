@@ -20,13 +20,13 @@
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9">
+                    <div class="col-md-9" id="blog-listing-medium">
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "use case") }}
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" (slice "blog" "offer") )}}
                         {{ range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
-                                <!--div class="col-md-4">
+                                <div class="col-md-4">
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
@@ -35,8 +35,8 @@
                                           <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
                                           {{ end }}
                                       </a>
-                                  </div>				  
-                                </div-->
+                                  </div>
+                                </div>
                                 <div class="col-md-8">
                                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
@@ -51,9 +51,9 @@
                                           {{ end }}
 
                                         </p>
-                                        <!--p class="date-comments">
+                                        <p class="date-comments">
                                             <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                        </p-->
+                                        </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
                                     <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
@@ -63,19 +63,19 @@
                         </section>
                         {{ end }}
 
-                        <!--<ul class="pager">
+                        <ul class="pager">
                             {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "next" }}</a></li>
                             {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous disabled"><a href="#">&larr; {{ i18n "next" }}</a></li>
                             {{ end }}
 
                             {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
+                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "previous" }} &rarr;</a></li>
                             {{ else }}
-                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
+                            <li class="next disabled"><a href="#">{{ i18n "previous" }} &rarr;</a></li>
                             {{ end }}
-                        </ul>-->
+                        </ul>
                     </div>
                     <!-- /.col-md-9 -->
 

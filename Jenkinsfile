@@ -1,5 +1,4 @@
 pipeline {
- 
   agent {
     kubernetes {
       label 'hugo-agent'
@@ -9,18 +8,24 @@ metadata:
   labels:
     run: hugo
   name: hugo-pod
+kind: Pod
 spec:
   containers:
     - name: jnlp
       volumeMounts:
       - mountPath: /home/jenkins/.ssh
         name: volume-known-hosts
+      - mountPath: "/home/jenkins"
+        name: "jenkins-home"
+        readOnly: false
     - name: hugo
       image: eclipsecbi/hugo:0.42.1
-      command:
-      - cat
       tty: true
+      command:
+      - cat  
   volumes:
+  - name: "jenkins-home"
+    emptyDir: {}
   - configMap:
       name: known-hosts
     name: volume-known-hosts
@@ -40,9 +45,10 @@ spec:
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
+    disableConcurrentBuilds()
   }
  
-  stages {
+  stages {    
     stage('Checkout www repo') {
       steps {
         dir('www') {
@@ -79,6 +85,15 @@ spec:
         }
       }
     }
+	
+	stage('Run maven') {
+      steps {
+        container('jnlp') {
+          sh 'mkdir -p /home/jenkins/foobar'
+        }
+      }
+    } 
+	
     stage('Push to $env.BRANCH_NAME branch') {
       when {
         anyOf {
