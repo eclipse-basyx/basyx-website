@@ -41,10 +41,10 @@ paginate = 10
 #	url  = "/"
 #	weight = 20
 	
-[[menu.main]]
-	name = "Reference Projects"
-	url  = "https://wiki.eclipse.org/BaSyx_/_Reference_Projects"
- 	weight = 25
+#[[menu.main]]
+#	name = "Reference Projects"
+#	url  = "https://wiki.eclipse.org/BaSyx_/_Reference_Projects"
+# 	weight = 25
 	
 #[[menu.main]]
 #    name = "Use Cases"
