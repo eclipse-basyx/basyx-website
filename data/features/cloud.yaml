@@ -1,6 +1,7 @@
 weight: 5
-name: "Cloud Infrastructure"
-description: "Shifting infrastructure according to demand is easy with Eclipse BaSyx' cloud connectivity and container-based deployment."
+name: "DATA CENTER INTEGRATION"
+description: "Eclipse BaSyx scales with your requirements. We deliver Industry 4.0 as docker components that can be deployed in your IT. 
+Whether you want to setup BaSyx on a PC server or integrate with your data center infrastructure, the choice is yours."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 

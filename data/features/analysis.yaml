@@ -1,7 +1,6 @@
 weight: 6
-name: "Data Analysis"
-description: "Realizing applications for manufacturing data analysis and dashboards is possible with 
-Eclipse BaSyx' ability of end-to-end communication and unified interfaces."
+name: "INTELLIGENCE"
+description: "Use our pre-packages analysis, visualization, and automation components to start your Industry 4.0 experience today!"
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 

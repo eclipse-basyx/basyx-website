@@ -1,6 +1,7 @@
 weight: 3
-name: "End-to-end Communication"
-description: "Eclipse BaSyx enables an end-to-end networking from shopfloor to IT level. This guarantees a continuous data access from IT systems to manufacturing devices."
+name: "CONNECTIVITY"
+description: "Connect OPC-UA, MQTT, and fieldbus devices with our data provider components. Integrate MES and ERP systems with your production systems. 
+Use our components to secure your machine to machine communication."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 

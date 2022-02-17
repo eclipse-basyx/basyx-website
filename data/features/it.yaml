@@ -1,7 +1,7 @@
 weight: 4
-name: "IT Systems Connectivity"
-description: "Eclipse BaSyx integrates ERP systems, MES and the IT infrastructure with unified interfaces. 
-Data exchange between different IT systems is made easy."
+name: "INDUSTRY 4.0 INFRASTRUCTURE"
+description: "Eclipse BaSyx implements all important Industry 4.0 infrastructure components including the the AAS registry, AAS and AAS 
+sub model server components, as well as data provider components. Integrate data bases, backups, asset management, load balancers, and S3 storage, if necessary."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 

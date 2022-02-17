@@ -1,7 +1,7 @@
 weight: 2
 name: "Lot Size 1 Production"
-description: "Eclipse BaSyx enables a service-oriented production which is the key factor for a changeable production. 
-Thus, an efficient lot size one is made possible."
+description: "Eclipse BaSyx provides basic MES functionality to enable service oriented architectures (SOA) for production systems. 
+Thus, the efficient production of lot size one becomes possible."
 # Uncomment to add a link
 #link: "/basyx/use-case/bigdataanalytics"
 
