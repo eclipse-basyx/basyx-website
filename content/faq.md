@@ -36,7 +36,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 * Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 * Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* Vestibulum auctor dapibus neque...
 
 ---
 
