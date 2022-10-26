@@ -22,7 +22,14 @@ spec:
       image: eclipsecbi/hugo:0.42.1
       tty: true
       command:
-      - cat  
+      - cat
+      volumeMounts:
+      - name: volume-known-hosts
+        mountPath: /home/jenkins/.ssh
+  volumes:
+  - name: volume-known-hosts
+    configMap:
+      name: known-hosts
   volumes:
   - name: "jenkins-home"
     emptyDir: {}
