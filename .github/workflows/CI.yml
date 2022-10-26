@@ -1,0 +1,32 @@
+name: Build and deploy website
+
+on:
+  push:
+    branches: [ "CI_Test" ]
+  pull_request:
+    branches: [ "CI_Test" ]
+
+env:
+  PROJECT_NAME: "basyx"
+  PROJECT_BOT_NAME: "BaSyx Bot"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Echo
+      run: echo "$PROJECT_NAME"
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.42.1'
+      
+    - name: Build
+      run: hugo -b 'https://staging.eclipse.org/${{env.PROJECT_NAME}}/'
+      
+    - name: Debug
+      run: find . -type f
