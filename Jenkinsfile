@@ -51,7 +51,7 @@ spec:
         dir('www') {
             sshagent(['github-bot-ssh']) {
                 sh '''
-                    git clone ssh://git@github.com:eclipse-basyx/basyx-website.git .
+                    git clone git@github.com:eclipse-basyx/basyx-website-publish.git .
                     git checkout ${BRANCH_NAME}
                 '''
             }
