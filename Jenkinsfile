@@ -1,4 +1,5 @@
 pipeline {
+ 
   agent {
     kubernetes {
       label 'hugo-agent'
@@ -8,31 +9,21 @@ metadata:
   labels:
     run: hugo
   name: hugo-pod
-kind: Pod
 spec:
   containers:
     - name: jnlp
       volumeMounts:
       - mountPath: /home/jenkins/.ssh
         name: volume-known-hosts
-      - mountPath: "/home/jenkins"
-        name: "jenkins-home"
-        readOnly: false
+      env:
+      - name: "HOME"
+        value: "/home/jenkins"
     - name: hugo
       image: eclipsecbi/hugo:0.42.1
-      tty: true
       command:
       - cat
-      volumeMounts:
-      - name: volume-known-hosts
-        mountPath: /home/jenkins/.ssh
+      tty: true
   volumes:
-  - name: volume-known-hosts
-    configMap:
-      name: known-hosts
-  volumes:
-  - name: "jenkins-home"
-    emptyDir: {}
   - configMap:
       name: known-hosts
     name: volume-known-hosts
@@ -45,24 +36,22 @@ spec:
     PROJECT_BOT_NAME = "BaSyx Bot" // Capitalize the name
   }
  
- triggers { pollSCM('H/10 * * * *') 
-
+  triggers { pollSCM('H/10 * * * *') 
+ 
  }
-
+ 
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
-    disableConcurrentBuilds()
   }
  
-  stages {    
+  stages {
     stage('Checkout www repo') {
       steps {
         dir('www') {
             sshagent(['github-bot-ssh']) {
                 sh '''
-		    ssh -T git@github.com
-		    git clone git@github.com:eclipse-basyx/basyx-website-publish.git
+                    git clone ssh://git@github.com:eclipse-basyx/basyx-website.git .
                     git checkout ${BRANCH_NAME}
                 '''
             }
@@ -93,15 +82,6 @@ spec:
         }
       }
     }
-	
-	stage('Run maven') {
-      steps {
-        container('jnlp') {
-          sh 'mkdir -p /home/jenkins/foobar'
-        }
-      }
-    } 
-	
     stage('Push to $env.BRANCH_NAME branch') {
       when {
         anyOf {
@@ -117,13 +97,13 @@ spec:
                 git add -A
                 if ! git diff --cached --exit-code; then
                   echo "Changes have been detected, publishing to repo 'www.eclipse.org/${PROJECT_NAME}'"
-                  git config --global user.email "${PROJECT_NAME}-bot@eclipse.org"
-                  git config --global user.name "${PROJECT_BOT_NAME}"
+                  git config user.email "${PROJECT_NAME}-bot@eclipse.org"
+                  git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
                   git push origin HEAD:${BRANCH_NAME}
                 else
-                  echo "No change have been detected since last build, nothing to publish"
+                  echo "No changes have been detected since last build, nothing to publish"
                 fi
                 '''
             }
