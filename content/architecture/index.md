@@ -84,7 +84,6 @@ This is based on recipes that are defined in the Digital Twins of products. AAS 
 - Provides AAS to other components
 - Serialize/Load AAS from/to AASX, JSON, XML
 
-###
 
 <!--{{< figure src="./images/ico_sm.png" class="ico-left">}}-->
 **AAS Server component (for sub models)**
