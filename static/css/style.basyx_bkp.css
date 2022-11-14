@@ -1,0 +1,36 @@
+/* navbar */
+/* PK: min-height = logo height + 20px */ 
+.navbar {
+  min-height: 100px;
+}
+/* PK: height = logo height + 20px */ 
+.navbar-brand {
+  height: 100px;
+}
+/* PK: default format for partners */ 
+.partner {
+	list-style: none;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.partner li {
+	display: inline-block;
+	margin: 10px 5px 0 5px;
+	vertical-align: middle;
+	width: 150px;
+	height: 100px;
+}
+.partner li:hover {
+/*  	background-color: white; */
+}
+
+.partner li > a,
+.partner li > a img {
+	border: none;
+	outline: none;
+	display: block;
+	position: relative;
+}
