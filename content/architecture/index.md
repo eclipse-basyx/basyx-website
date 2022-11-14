@@ -23,8 +23,6 @@ Eclipse BaSyx realizes a virtual manufacturing plant. It connects all digital tw
 
 ![Eclipse BaSyx Architecture ilustration alt](images/eclipse_basyx_architecture.png)
 
-##
-
 
 *	**Enterprise level**
 Applications on the enterprise level use digital twins to control, optimize and monitor the digital factory, and to negotiate with external stakeholders.
