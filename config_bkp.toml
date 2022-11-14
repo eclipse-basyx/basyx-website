@@ -12,7 +12,6 @@ defaultContentLanguage = "en"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = "UA-XXXXX-X"
 googleAnalytics = ""
-pluralizelisttitles = "false"
 
 # Define the number of posts per page
 paginate = 10
@@ -22,10 +21,10 @@ paginate = 10
 
 # Main menu
 
-#[[menu.main]]
-#    name = "Home"
- ##   url  = "/"
- #   weight = 10
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 10
 	
 [[menu.main]]
 	name = "Blog"
@@ -37,26 +36,6 @@ paginate = 10
     url  = "/about/"
     weight = 20
 	
-[[menu.main]]
-    name = "Benefits"
-    url  = "/benefits/"
-    weight = 25
-
-[[menu.main]]
-    name = "Concepts"
-    url  = "/concepts/"
-    weight = 30
-
-[[menu.main]]
-    name = "Architecture"
-    url  = "/architecture/"
-    weight = 35
-
-#[[menu.main]]
-#    name = "Ecosystem"
-#    url  = "/ecosystem/"	
-#    weight = 40
-
 #[[menu.main]]
 #	name = "Details"
 #	url  = "/"
@@ -77,38 +56,31 @@ paginate = 10
 #    url  = "https://www.eclipse.org/forums/index.php/f/386/"
 #    weight = 30
 
-#[[menu.main]]
-#    name = "Documentation"
-#    url  = "https://wiki.eclipse.org/BaSyx"	
-#    weight = 35
+[[menu.main]]
+    name = "Documentation"
+    url  = "https://wiki.eclipse.org/BaSyx"	
+    weight = 30
 
 #[[menu.main]]
 #	name = "Offers"
 #	url  = "/offer/"
 # 	weight = 35
 
-#[[menu.main]]
-#    name = "Download"
-#    url  = "https://github.com/eclipse-basyx"	
-#    url  = "/download/"	
-#    weight = 45
+[[menu.main]]
+    name = "Download"
+    url  = "https://github.com/eclipse-basyx"	
+    weight = 40
 	
 [[menu.main]]
     name = "Contributing"
-    url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
+	url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
     weight = 50
 
-[[menu.main]]
-    name = "Wiki"
-	url  = "https://wiki.eclipse.org/BaSyx"
-    weight = 55 
-    target = "_blank"
 
 #[[menu.main]]
-#    name = "Mailist"
+#    name = "Events"
 #    url  = "/calendar/"
 #    weight = 50
-
 
 # Top bar social links menu
 
@@ -139,9 +111,8 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Admin"
-    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
+    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "ecosystem", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
     defaultDescription = "Eclipse BaSyx Community Website"
-    custom_css = ["css/custom.css"]
 
     # Google Maps API key (if not set will default to not passing a key.)
     #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
@@ -197,7 +168,7 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = false
+    categories = true
     tags = true
     search = true
 
@@ -241,10 +212,3 @@ paginate = 10
     enable = false
     title = "Testimonials"
     subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."
-
-#[params.ecosystem]
-#    enable = true
-#    title = "Ecosystem"
-#    categories = true
-#    search = true
-    
