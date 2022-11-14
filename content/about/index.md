@@ -10,16 +10,18 @@ type: about
 
 <div align="justify">
 
+	<p class="lead">
 	Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin.  
 	Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.0.
-
+	
 	<br><br>
-
+	
 	Eclipse BaSyx therefore provides common and re-useable off-the shelf Industrie 4.0 components and SDKs (Java, C# and C++) that support the implementation of new Industrie 4.0 software components to enable rapid development of Industrie 4.0 solutions. BaSyx furthermore supports reference application scenarios for common Industrie 4.0 challenges such as a changeable production to enable individualized goods, leveraging big data analytics and connecting heterogeneous devices and systems while minimizing downtime and other associated costs.
-
+	
 	<br><br>
 
-	In the following video Frank Schnicke (Fraunhofer IESE) is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
+    In the following video Frank Schnicke (Fraunhofer IESE) is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
+    </p>
 
 	<!--<p class="lead">
 	Eclipse BaSyx is actively supported by the <a href="https://www.basys40.de/" title=""> BaSys 4.2 </a> (Homepage, in German) research project, which is 
