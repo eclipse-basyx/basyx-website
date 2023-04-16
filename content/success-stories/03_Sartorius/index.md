@@ -9,7 +9,7 @@ weight: 3
 ---
 
 <div class="row">
-  <div class=""><h3>Leveraging Eclipse BaSyx and Asset Administration Shells for a modular und flexible production</h3></div>
+  <div class=""><h2>Leveraging Eclipse BaSyx and Asset Administration Shells for a modular und flexible production</h2></div>
   <p>Sartorius is a global leader in supplying pharmaceutical and laboratory equipment, covering the segments of bioprocess solutions as well as lab products & services. </p>
   <p>Sartorius is manufacturing a high number of variants and thus are faced with a multitude of related requirements on their production system. New variants must be easily incorporated; extensions must be modular and seamlessly integrable. For modular, flexible and automated production that enables these goals, the asset administration shell is a key technology. Many different aspects must be addressed: How can products and their numerous variants be efficiently described? How can production services be implemented in a configurable and exchangeable way? How can existing devices and services be integrated? How can the resulting data and information be recorded and used to improve production?</p>
   <p>In close cooperation with Fraunhofer IESE, Sartorius used Eclipse BaSyx to develop a modern system architecture with asset administration shells that meets these challenges.  By using the standard components of Eclipse BaSyx, rapid success was achieved and a modular, versioned and flexible production was developed in an efficient and standardised approach. </p>
