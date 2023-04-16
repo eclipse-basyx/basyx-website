@@ -6,6 +6,7 @@ weight: 1
 ---
 
 This video provides an overview about the vision and main concepts of the Industry 4.0.
+
 - What is a Digital Twin
 - Overview of the Asset Administration Shell 
 - Overview of the Asset Administration Shell Submodels
