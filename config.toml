@@ -46,12 +46,20 @@ paginate = 10
     name = "Concepts"
     url  = "/concepts/"
     weight = 30
+    parent = "developer" 
 
 [[menu.main]]
     name = "Architecture"
     url  = "/architecture/"
     weight = 35
-
+    parent = "developer" 
+              
+[[menu.main]]
+    identifier = "getting-started"
+    name = "Getting Started"
+    url  = "/getting-started/"	
+    weight = 45
+    
 [[menu.main]]
     identifier = "videos"
     name = "Videos"
@@ -64,6 +72,13 @@ paginate = 10
     url  = "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html"
     weight = 2
     parent = "getting-started"
+    
+[[menu.main]]
+    identifier = "developer"
+    name = "Developer"
+    url  = "/developer/"
+    weight = 55
+    
     
 #[[menu.main]]
 #    name = "Ecosystem"
@@ -107,15 +122,18 @@ paginate = 10
 #    weight = 45
 	
 [[menu.main]]
+    identifier = "contributing"
     name = "Contributing"
     url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
-    weight = 50
+    weight = 3
+    parent = "developer"
 
 [[menu.main]]
     name = "Wiki"
 	url  = "https://wiki.eclipse.org/BaSyx"
-    weight = 55 
+    weight = 4 
     target = "_blank"
+    parent = "developer"
 
 #[[menu.main]]
 #    name = "Mailist"
