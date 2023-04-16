@@ -52,6 +52,19 @@ paginate = 10
     url  = "/architecture/"
     weight = 35
 
+[[menu.main]]
+    identifier = "videos"
+    name = "Videos"
+    url  = "/videos/"
+    weight = 1
+    parent = "getting-started"
+
+[[menu.main]]
+    name = "Open Hour"
+    url  = "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html"
+    weight = 2
+    parent = "getting-started"
+    
 #[[menu.main]]
 #    name = "Ecosystem"
 #    url  = "/ecosystem/"	

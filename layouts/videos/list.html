@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+          
+          {{ partial "nav.html" . }}
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            <div class="container">
+                <div class="row">                
+
+                    <div class="col-md-11" id="blog-listing-medium">
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" (slice "videos") )}}
+                        {{ range sort $paginator.Pages }}
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2>{{ .Title }}</h2>
+                                </div>
+                                <div class="col-md-6">
+                                  <p style="text-align:left;">
+                                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                      <iframe src="{{ .Params.video }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
+                                    </div>
+                                  </p>
+                                </div>
+                                <div class="col-md-6 custom-font">
+                                    <p class="">{{ .Content }}</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        {{ end }}
+                      
+                    </div>
+                    <!-- /.col-md-9 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
