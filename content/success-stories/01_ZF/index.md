@@ -38,12 +38,10 @@ Do you want to know more about Eclipse BaSyx at ZF Friedrichshafen AG? Check out
 <a href="https://www.produktion.de/technik/digitalisierung-bei-zf-neue-methode-spart-30-prozent-zeit-112.html" class="external" target="_blank">https://www.produktion.de/technik/digitalisierung-bei-zf-neue-methode-spart-30-prozent-zeit-112.html</a>. 
 
 <div style="padding:25px 0 15px;">
-
 <!--{{< figure src="./img/ZF_logo.png" class="img-right">}}-->
+</div>
 
 ##### Name:                ZF Friedrichshafen AG
 ##### Headquarters:        Friedrichshafen, Germany
 ##### Number of employees: 157,500 (as of 2021)
 ##### Sector:              Design, Research and Development in Automotive Industry
-
-</div>
