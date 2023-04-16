@@ -295,9 +295,9 @@ paginate = 10
     title = "Eclipse BaSyx Project"
 	
 [params.testimonials]
-    enable = false
+    enable = true
     title = "Testimonials"
-    subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."
+    subtitle = "Have a look what BaSyx users & partners said about the open source Industry 4.0 platform."
 
 #[params.ecosystem]
 #    enable = true
@@ -305,7 +305,7 @@ paginate = 10
 #    categories = true
 #    search = true
 
-#[markup]
-#  [markup.goldmark]
-#    [markup.goldmark.renderer]
-#      unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
