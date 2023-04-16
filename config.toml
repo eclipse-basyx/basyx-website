@@ -27,10 +27,10 @@ paginate = 10
  ##   url  = "/"
  #   weight = 10
 	
-[[menu.main]]
-	name = "Blog"
-	url  = "/blog/"
- 	weight = 15
+#[[menu.main]]
+#	name = "Blog"
+#	url  = "/blog/"
+# 	weight = 15
 
 [[menu.main]]
     name = "About"
@@ -45,15 +45,42 @@ paginate = 10
 [[menu.main]]
     name = "Concepts"
     url  = "/concepts/"
-    weight = 30
+    weight = 1
     parent = "developer" 
 
 [[menu.main]]
     name = "Architecture"
     url  = "/architecture/"
-    weight = 35
+    weight = 2
     parent = "developer" 
-              
+
+[[menu.main]]
+    identifier = "ecosystem"
+    name = "Ecosystem"
+    url  = "/ecosystem/"	
+    weight = 30
+
+[[menu.main]]
+    identifier = "overview"
+	name = "Overview"
+	url  = "/overview/"
+ 	weight = 1
+    parent = "ecosystem"
+
+[[menu.main]]
+    identifier = "partners"
+	name = "Partners"
+	url  = "/partners/"
+ 	weight = 2
+    parent = "ecosystem"
+
+[[menu.main]]
+    identifier = "success-stories"
+	name = "Success Stories"
+	url  = "/success-stories/"
+ 	weight = 3
+    parent = "ecosystem"
+                  
 [[menu.main]]
     identifier = "getting-started"
     name = "Getting Started"
@@ -78,8 +105,7 @@ paginate = 10
     name = "Developer"
     url  = "/developer/"
     weight = 55
-    
-    
+        
 #[[menu.main]]
 #    name = "Ecosystem"
 #    url  = "/ecosystem/"	
@@ -278,4 +304,8 @@ paginate = 10
 #    title = "Ecosystem"
 #    categories = true
 #    search = true
-    
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
