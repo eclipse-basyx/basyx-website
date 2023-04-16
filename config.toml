@@ -24,8 +24,8 @@ paginate = 10
 
 #[[menu.main]]
 #    name = "Home"
-#    url  = "/"
-#    weight = 10
+ ##   url  = "/"
+ #   weight = 10
 	
 #[[menu.main]]
 #	name = "Blog"
@@ -52,11 +52,10 @@ paginate = 10
     name = "Architecture"
     url  = "/architecture/"
     weight = 2
-    parent = "developer"
+    parent = "developer" 
 
 [[menu.main]]
     identifier = "ecosystem"
-    #name = "Partners & References"
     name = "Ecosystem"
     url  = "/ecosystem/"	
     weight = 30
@@ -81,41 +80,50 @@ paginate = 10
 	url  = "/success-stories/"
  	weight = 3
     parent = "ecosystem"
-
+                  
 [[menu.main]]
     identifier = "getting-started"
     name = "Getting Started"
     url  = "/getting-started/"	
     weight = 45
-
+    
 [[menu.main]]
     identifier = "videos"
-    name = "    Videos    "
+    name = "Videos"
     url  = "/videos/"
     weight = 1
     parent = "getting-started"
 
 [[menu.main]]
-    name = "    Open Hour   "
+    name = "Open Hour"
     url  = "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html"
     weight = 2
     parent = "getting-started"
-
+    
 [[menu.main]]
     identifier = "developer"
     name = "Developer"
     url  = "/developer/"
     weight = 55
-    
+        
+#[[menu.main]]
+#    name = "Ecosystem"
+#    url  = "/ecosystem/"	
+#    weight = 40
+
 #[[menu.main]]
 #	name = "Details"
 #	url  = "/"
 #	weight = 20
 	
 #[[menu.main]]
+#	name = "Reference Projects"
+#	url  = "https://wiki.eclipse.org/BaSyx_/_Reference_Projects"
+# 	weight = 25
+	
+#[[menu.main]]
 #    name = "Use Cases"
 #    url  = "/use case/"
-#     url  = "/"
 #    weight = 25
 	
 #[[menu.main]]
@@ -134,12 +142,10 @@ paginate = 10
 # 	weight = 35
 
 #[[menu.main]]
-#    identifier = "download"
 #    name = "Download"
 #    url  = "https://github.com/eclipse-basyx"	
 #    url  = "/download/"	
 #    weight = 45
-#    parent = "contributing"
 	
 [[menu.main]]
     identifier = "contributing"
@@ -190,14 +196,14 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Admin"
-    defaultKeywords = ["industrie 4.0","industry 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
+    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
     defaultDescription = "Eclipse BaSyx Community Website"
     custom_css = ["css/custom.css"]
 
     # Google Maps API key (if not set will default to not passing a key.)
     #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -212,7 +218,7 @@ paginate = 10
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
+    # Enable the contact form by entering your Formspree.io email
     email = ""
 
     #copyright = "Copyright © 2021 The Eclipse Foundation. All Rights Reserved."
@@ -289,17 +295,17 @@ paginate = 10
     title = "Eclipse BaSyx Project"
 	
 [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
-    subtitle = "Have a look what BaSyx users & partners said about the open source Industrie 4.0 platform."
+    subtitle = "Have a look what BaSyx users said about the open source Industrie 4.0 platform."
 
 #[params.ecosystem]
 #    enable = true
-#    title = "BaSyx Ecosystem"
+#    title = "Ecosystem"
 #    categories = true
 #    search = true
-    
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.renderer]
+#      unsafe = true
