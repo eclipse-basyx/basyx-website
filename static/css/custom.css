@@ -12,3 +12,145 @@
   font-weight: 300;
   font-size: 16px;
 }
+
+.center img {        
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.name_testimonial {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0cb2f0;
+  /*black;*/
+  font-size: 22px;
+}
+
+/***************************************/
+/* CUSTOM LIST PAGE ECOSYSTEM/PARTNERS */
+/***************************************/
+.custom_posts:not(.aside) {
+  /*padding: 0 30px;*/
+  padding: 0 0;
+}
+
+.custom_posts {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  /*
+  flex-flow: row wrap;
+  width: 50%;
+  */
+}
+
+.custom_post_item {
+  width: 47%;
+}
+
+.custom_post_item {
+  box-shadow: 0 0 3rem rgba(0,0,0,0.17);
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 49%;
+  padding: 20px;
+  max-width: 24%;
+}
+
+.custom_post_card {
+  display: block;
+  position: relative;
+  background-color: var(--dark);
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom_post_link {
+  padding: 2.5px 0;
+  margin: 2.5px 0;
+  text-align: left;
+}
+
+.pale {
+  opacity: 0.9;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+
+
+/***************************************/
+/* CUSTOM LIST PAGE ECOSYSTEM/OVERVIEW */
+/***************************************/
+
+.custom_long_posts:not(.aside) {
+  /*padding: 0 30px;*/
+  padding: 0 0;
+}
+
+.custom_long_posts {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  /*
+  flex-flow: row wrap;
+  width: 50%;
+  */
+}
+
+.custom_long_posts_item {
+  width: 95%;
+}
+
+.custom_long_posts_item {
+  box-shadow: 0 0 3rem rgba(0,0,0,0.17);
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.custom_long_posts_card {
+  display: block;
+  position: relative;
+  background-color: var(--dark);
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.custom_long_posts_image {
+  width: 35%;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom_long_posts_text {
+  width: 65%;
+  float: right;
+}
+.custom_long_posts_link {
+  padding: 2.5px 0;
+  margin: 2.5px 0;
+  text-align: left;
+}

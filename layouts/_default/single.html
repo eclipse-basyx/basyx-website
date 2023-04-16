@@ -10,9 +10,7 @@
     <div id="all">
 
         <header>
-
           {{ partial "nav.html" . }}
-
         </header>
 
         {{ partial "breadcrumbs.html" . }}
@@ -25,17 +23,17 @@
                     <!-- *** LEFT COLUMN *** -->
 
                     <div class="col-md-9" id="blog-post">											
-						<div class="image" align="center">
-							{{ if .Params.banner }}							
-								  <img  src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">													
-							{{ else }}						
-								  <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">							
-							{{ end }}
-						</div>
+                      <div class="image" align="center">
+                        {{ if .Params.banner }}							
+                            <img  src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">													
+                        {{ else }}						
+                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">							
+                        {{ end }}
+                      </div>
 
                         <p class="text-muted text-uppercase mb-small text-right"> {{ if .Params.img_source }}{{ .Params.img_source }} | {{ end }} {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }} {{ if .Params.date }}{{ .Date.Format .Site.Params.date_format }} {{ end }}</p>
 						
-                        <div id="post-content">
+                        <div id="post-content" class="custom-font">
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->

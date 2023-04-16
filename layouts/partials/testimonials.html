@@ -1,7 +1,7 @@
 {{ if isset .Site.Params "testimonials" }}
 {{ if .Site.Params.testimonials.enable }}
 {{ if gt (len .Site.Data.testimonials) 0 }}
-<section class="bar background-pentagon no-mb">
+<section class="bar background-pentagon no-mb" style="background-color: #eeeeee;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -20,17 +20,23 @@
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
-                                <p>{{ .text | markdownify }}</p>
+                                <p><q>{{ .text | markdownify }}</q></p>
                             </div>
-                            <div class="bottom">
-                                <div class="icon"><i class="fa fa-quote-left"></i>
-                                </div>
-                                <div class="name-picture">
-                                    <img class="" alt="" src="{{ .avatar | absURL }}">
-                                    <h6>{{ .name }}</h6>
-                                    <p>{{ .position }}</p>
-                                </div>
+                            <div class="bottom" style="margin-bottom: 25px;" align="center" >
+                                {{ if .logo }}
+                                <img class="center-image" alt="" width="80%" src="{{ .logo | absURL }}">
+                                {{ else }}
+                                <p class="name_testimonial">{{ .name }}</p>
+                                {{ end }}
                             </div>
+                            <!--
+                            <div class="icon"><i class="fa fa-quote-left"></i></div>
+                            <div class="name-picture">
+                                <img class="" alt="" src="{{ .avatar | absURL }}">
+                                <h6>{{ .name }}</h6>
+                                <p>{{ .position }}</p>
+                            </div>
+                            -->
                         </div>
                     </li>
                     {{ end }}
