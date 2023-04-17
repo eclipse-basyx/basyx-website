@@ -8,13 +8,10 @@
                 <div class="heading text-center">
                     <h2>{{ .Site.Params.testimonials.title }}</h2>
                 </div>
-
                 <p class="lead" align="center" >
                   {{ .Site.Params.testimonials.subtitle | markdownify }}
                 </p>
-
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
-
                 <ul class="owl-carousel testimonials same-height-row">
                     {{ range .Site.Data.testimonials }}
                     <li class="item">
@@ -24,28 +21,17 @@
                             </div>
                             <div class="bottom" style="margin-bottom: 25px;" align="center" >
                                 {{ if .logo }}
-                                <img class="center-image" alt="" width="80%" src="{{ .logo | absURL }}">
+                                <img class="center-image" alt="" width="80%" src="{{$.Site.BaseURL}}/{{ .logo }}">
                                 {{ else }}
                                 <p class="name_testimonial">{{ .name }}</p>
                                 {{ end }}
                             </div>
-                            <!--
-                            <div class="icon"><i class="fa fa-quote-left"></i></div>
-                            <div class="name-picture">
-                                <img class="" alt="" src="{{ .avatar | absURL }}">
-                                <h6>{{ .name }}</h6>
-                                <p>{{ .position }}</p>
-                            </div>
-                            -->
                         </div>
                     </li>
                     {{ end }}
                 </ul>
-                <!-- /.owl-carousel -->
-
                 <!-- *** TESTIMONIALS CAROUSEL END *** -->
             </div>
-
         </div>
     </div>
 </section>
