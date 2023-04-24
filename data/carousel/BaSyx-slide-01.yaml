@@ -1,11 +1,11 @@
 weight: 2
 title: "Eclipse BaSyx"
 description: "
+<p><b>Eclipse BaSyx: Industry 4.0 Operating System</b></p>
 <p>
   Eclipse BaSyx is the open source Industry 4.0 middleware. 
   We realize all necessary standards and infrastructure components for Industry 4.0 production environments and provide the foundation for software platforms. 					
 </p>
-<br>
 <p>
   The Eclipse BaSyx Platform provides ready-to-use components and extendable software development kits (SDK) for Java, C++ and C#.
 </p>"

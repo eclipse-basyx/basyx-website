@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Introduction (00:18:16)"
 video: "https://www.youtube-nocookie.com/embed/hSztffTP9D4"
 description: ""
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: "OTS Components"
+title: "OTS Components (00:53:08)"
 video: "https://www.youtube-nocookie.com/embed/CGZEJVNEjoY"
 description: ""
 weight: 2

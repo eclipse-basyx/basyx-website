@@ -1,11 +1,12 @@
 weight: 1
 title: "Digital Twin"
 description: "
+<p><b>Eclipse BaSyx: Industry 4.0 Operating System</b></p>
 <p>
 Eclipse BaSyx is one of the <b>first implementations of digital twins using the Asset Administration Shell</b>.
 </p>
 <p style='text-align: center;'>
-  BaSyx enables live data exchange between the physical system and its digital twin, which allows for real-time monitoring and control of the physical system. This live data exchange is facilitated by BaSyx's support for standardized communication protocols such as OPC UA and MQTT.
+  BaSyx enables live data exchange between the physical system and its digital twin, which allows for real-time monitoring and control of physical systems. Live data exchange is facilitated by standardized communication protocols such as OPC UA and MQTT.
 </p>
 "
 graphic: "img/carousel/LifeData.jpg"
