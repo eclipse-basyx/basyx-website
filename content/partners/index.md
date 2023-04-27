@@ -92,7 +92,6 @@ Industry 4.0 will drive a significant change in your system architecture. We gui
       <p class="pale"><b>Feel free to contact us:</b><br/><a>stephan.schaefer@HTW-Berlin.de</a></p>
     </div>
   </li>
-  <!--
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;">
       <a href="#">
@@ -101,14 +100,18 @@ Industry 4.0 will drive a significant change in your system architecture. We gui
     </div>
     <div class="excerpt">
         <p class="pale"><b>Services:</b> <br/>
-                - xxxxxxxxx
+                - Architecture Modelling and Analysis<br/>
+                - Engineering Methodology<br/>
+                - Proof-of-Concepts<br/>
+                - Prototype Development
         </p>
       </div>
       <div class="excerpt">
-        <p class="pale"><b>Feel free to contact us:</b><br/><a>xxxxxx</a></p>
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>mbse@fortiss.org</a></p>
     </div>
   </li>
-  -->
+</ul>
+<ul class="custom_posts" id="posts">
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;">
       <a href="#">
@@ -123,8 +126,6 @@ Industry 4.0 will drive a significant change in your system architecture. We gui
       <p class="pale"><b>Feel free to contact us:</b><br/><a>ng-IndustrySolutionsDE@netapp.com</a></p>
     </div>
   </li> 
-</ul>
-<ul class="custom_posts" id="posts">
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;display:flex; justify-content: center;">
       <a href="#">
