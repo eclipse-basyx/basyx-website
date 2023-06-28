@@ -115,7 +115,7 @@ Industry 4.0 will drive a significant change in your system architecture. We gui
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;">
       <a href="#">
-          <img src="images/NetApp_logo.png" class="img-responsive" alt="">
+          <img src="images/NetApp_logo.jpg" class="img-responsive" alt="">
       </a>
     </div>
     <div class="excerpt">
@@ -156,6 +156,24 @@ Industry 4.0 will drive a significant change in your system architecture. We gui
     </div>
     <div class="excerpt">
         <p class="pale"><b>Feel free to contact us:</b><br/><a>info@xitaso.com</a></p>
+    </div>
+  </li>
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/RWTH_logo.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Services:</b> <br/>
+          - Strategic Consulting  <br/>
+          - Digital Twins <br/>
+          - Concept Development and Proof of Concepts<br/>
+          - Backend-Integration, Data Handling, Semantic Modelling
+      </p>
+    </div>
+    <div class="excerpt">
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>t.miny@iat.rwth-aachen.de</a></p>
     </div>
   </li>
   <!--
@@ -236,10 +254,24 @@ Coaching and Training is important. Whether you need an overview of Industry 4.0
           <p class="pale"><b>Feel free to contact us:</b><br/><a>daniel.porta@dfki.de</a></p>
         </div>
     </li> 
+    <li class="custom_post_item">
+      <div class="image img-center" style="height:80px;" >
+      <a href="#">
+        <img src="images/RWTH_logo.png" class="img-responsive" alt="">
+      </a>
+      </div>
+      <div class="excerpt">
+        <p class="pale"><b>Services:</b> <br/>
+                - Training and Workshops in I4.0 Basic Concepts <br/>
+                - Asset Administration Shell Trainings for Manager and Developer<br/>
+        </p>
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>t.miny@iat.rwth-aachen.de</a></p>
+      </div>
+    </li>
   </ul>
 
 <div class="row">
-    <div class="heading text-center"><h3>Integrators & Distributers</h3></div>
+    <div class="heading text-center"><h3>Integrators & Distributors</h3></div>
 </div>
 
 Integrating Eclipse BaSyx with existing systems, devices and production environments can be a challenging task. If you need help, feel free to ask our partners. They will also offer support if necessary. 
@@ -338,6 +370,41 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
         <p class="pale"><b>Feel free to contact us:</b><br/><a>info@xitaso.com</a></p>
     </div>
   </li> 
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/Muckenhirn_logo.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Services:</b> <br/>
+          - MES services and integration (SMEs) <br/>
+          -	Automation software <br/>
+          -	Automation solutions <br/>
+          - HMI software
+      </p>
+    </div>
+    <div class="excerpt">
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>info@muckenhirn.net</a></p>
+    </div>
+  </li> 
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/IndustryApps_logo.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Services:</b> <br/>
+          - Cloud-based platform for Digital Twins and apps<br/>
+          - Connectivity and integration of IT/OT data enabling interoperability<br/>
+          - Creation and secure exchange of Digital Twins at scale
+      </p>
+    </div>
+    <div class="excerpt">
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>Jayadev@industryapps.net</a><br/><a>ssk@industryapps.net</a></p>
+    </div>
+  </li>
 </ul>
 
 <div class="row">
@@ -347,6 +414,23 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
 Our Partners offer tools and solutions to realize Industry 4.0 with Eclipse BaSyx.
 
 <ul class="custom_posts" id="posts">
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/Bosch_Rexroth_AG_logo.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Solution:</b> <br/>
+          - <a href="https://developer.community.boschrexroth.com/t5/Store-and-How-to/Bosch-Rexroth-FACTORY-Orchestration-Platform/ba-p/72435" target="_blank" class="external">FACTORY Orchestration Platform</a><br/>
+          - Asset Onboarding<br/>
+          - Workflow Management <br/>
+          -	Workforce Instructions<br/>
+          -	Process Monitoring
+      </p>
+      <p class="pale"><b>Feel free to contact us:</b><br/><a>Constantin.Ziesche@boschrexroth.de</a></p>
+    </div>
+  </li> 
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;">
       <a href="#">
