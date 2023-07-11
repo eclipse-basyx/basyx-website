@@ -113,12 +113,6 @@ paginate = 10
     weight = 2
     parent = "getting-started"
 
-#[[menu.main]]
-#    identifier = "how-to"
-#    name = "How To"
-#    url  = "/how-to/"	
-#    weight = 46
-
 [[menu.main]]
     identifier = "developer"
     name = "Developer"
