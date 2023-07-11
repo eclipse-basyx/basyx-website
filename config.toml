@@ -112,12 +112,12 @@ paginate = 10
     url  = "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html"
     weight = 2
     parent = "getting-started"
-    
-[[menu.main]]
-    identifier = "how-to"
-    name = "How To"
-    url  = "/how-to/"	
-    weight = 46
+
+#[[menu.main]]
+#    identifier = "how-to"
+#    name = "How To"
+#    url  = "/how-to/"	
+#    weight = 46
 
 [[menu.main]]
     identifier = "developer"
