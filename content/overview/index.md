@@ -23,7 +23,7 @@ type: overview
     </div>
     <div class="row" style="margin: 25px 0 40px;">
         <div class="center">
-            <img src="images/overview.png" class="img-responsive" alt="Eclipse BaSyx EcoSystem" style="width:100%">
+            <img src="images/overview.jpg" class="img-responsive" alt="Eclipse BaSyx EcoSystem" style="width:100%">
         </div>
     </div>
     <div class="row">
