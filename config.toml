@@ -38,9 +38,22 @@ paginate = 10
     weight = 20
 	
 [[menu.main]]
+    identifier = "benefits"
     name = "Benefits"
     url  = "/benefits/"
     weight = 25
+
+[[menu.main]]
+    name = "Digitization"
+    url  = "/digitization/"
+    weight = 1
+    parent = "benefits"
+
+[[menu.main]]
+    name = "Integrated Applications"
+    url  = "/integrated-applications/"
+    weight = 2
+    parent = "benefits"
 
 [[menu.main]]
     name = "Concepts"
@@ -100,6 +113,12 @@ paginate = 10
     weight = 2
     parent = "getting-started"
     
+[[menu.main]]
+    identifier = "how-to"
+    name = "How To"
+    url  = "/how-to/"	
+    weight = 46
+
 [[menu.main]]
     identifier = "developer"
     name = "Developer"
