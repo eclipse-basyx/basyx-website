@@ -10,7 +10,7 @@ type: architecture
 
 {{< figure src="./images/digital-twins_with_aaset-administration-shell.png" class="img-right">}}
 
-Eclipse BaSyx uses the Asset Administration Shell (AAS) as base technology for digital twins. The AAS is the digital identity of an asset and links to AAS sub models that provide asset specific information, simulation models, and services. Eclipse BaSyx supports three kinds of sub models. The same AAS may link to any number of each kind:
+Eclipse BaSyx uses the Asset Administration Shell (AAS) as base technology for <a href="https://www.iese.fraunhofer.de/en/services/digital-twin.html" target="_blank">digital twins</a>. The AAS is the digital identity of an asset and links to AAS sub models that provide asset specific information, simulation models, and services. Eclipse BaSyx supports three kinds of sub models. The same AAS may link to any number of each kind:
 
 *	Static sub models provide access to data that only changes seldomly, such as documents, electronic certificates, data sheets, and digital name plates. Static sub model data may be serialized into files and sent to suppliers or customers, for example when the physical asset is sold or received. Static sub models are created for example with the AASX package explorer and saved as files.
 *	Dynamic sub models enable unified access to live asset data. This kind of sub model represents for example raw data, i.e. the state of a device, or higher-level data, such as the location of a product in the process. Dynamic sub models also support behavior (using program code) that implements data preprocessing and analysis. Dynamic sub models are created with the Eclipse BaSyx Software Development Kits (SDKs.) 

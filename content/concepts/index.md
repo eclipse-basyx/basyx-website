@@ -9,7 +9,7 @@ type: concepts
 
 ### Digital Twins
 
-Digital Twins are complete representations of any physical or non-physical real-world asset. They represent the current state of the asset though a harmonized interface, which covers for example the state of an asset, and sensor values. Digital twins also provide simulation models that predict asset behavior in a particular situation, provide evidences for substantiated decisions, and enable what-if analysis. 
+<a href="https://www.iese.fraunhofer.de/en/services/digital-twin.html" target="_blank">Digital Twins</a> are complete representations of any physical or non-physical real-world asset. They represent the current state of the asset though a harmonized interface, which covers for example the state of an asset, and sensor values. Digital twins also provide simulation models that predict asset behavior in a particular situation, provide evidences for substantiated decisions, and enable what-if analysis. 
 
 ![Fig 3: Digital Twins ilustration](images/digital_twins.png)
 

@@ -9,7 +9,7 @@ type: overview
 <!--style="color:#0cb2f0"-->
 <div class="col-md-12">
     <div class="row">
-    Making the Industry 4.0 happen requires great efforts and strong cooperation between research, academia, industry, the public, and standardization bodies. And it requires an implementation – the code that runs the world of manufacturing. Eclipse BaSyx emerged as commonly used Industry 4.0 middleware and became one of the first implementations of the Asset Administration Shell (AAS), even before it was a standard for digital twins. This is why Eclipse BaSyx is part of the code that enables digitization of manufacturing – that connects machines and IT systems – that runs our world. 
+    Making the Industry 4.0 happen requires great efforts and strong cooperation between research, academia, industry, the public, and standardization bodies. And it requires an implementation – the code that runs the world of manufacturing. Eclipse BaSyx emerged as commonly used Industry 4.0 middleware and became one of the first implementations of the Asset Administration Shell (AAS), even before it was a standard for <a href="https://www.iese.fraunhofer.de/en/services/digital-twin.html" target="_blank">digital twins</a>. This is why Eclipse BaSyx is part of the code that enables digitization of manufacturing – that connects machines and IT systems – that runs our world. 
     </div>
     <div class="row">
         <div class=""><h2>The Eclipse BaSyx Ecosystem – Code the Future</h2></div>
