@@ -6,6 +6,7 @@ banner: "img/reference-projects/Corona-Testroboters_HMI22.jpg"
 img_source: "© Fraunhofer IESE"
 cover_summary: "Asset-as-a-Service with Eclipse BaSyx: The objective partner AG is a technology consulting company located in Weinheim. Over the past years, objective partner AG has developed a substantial expertise in implementing Eclipse BaSyx-based solutions for their clients, leveraging the middleware to build customized, scalable, and secure industrial automation systems. Recently, Objective Partner AG has developed a Corona Test Robot, which was a joint effort between SAP, Franka Emika, and Franka Emika GmbH"
 weight: 5
+description: "Asset-as-a-Service with Eclipse BaSyx"
 ---
 
 <div class="row">

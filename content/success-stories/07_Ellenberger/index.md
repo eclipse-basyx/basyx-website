@@ -4,6 +4,7 @@ website: "https://www.ellenberger.org"
 banner: "img/reference-projects/ellenberger.jpg"
 #subtitle: ""
 weight: 7
+description: "Realization of service-based production with Eclipse BaSyx"
 ---
 
 <div class="row">

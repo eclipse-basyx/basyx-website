@@ -3,6 +3,7 @@ title: "Benefits"
 #date: 2022-07-22T08:08:18+01:00
 draft: false
 type: benefits
+description: "Eclipse BaSyx enables end-to-end digitization of production plants."
 
 ---
 

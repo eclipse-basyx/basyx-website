@@ -3,7 +3,8 @@ title: "Digitization"
 #date: 2022-07-22T08:08:18+01:00
 draft: false
 type: benefits
-
+seoTitle: "Benefits of the Digitization"
+description: "Eclipse BaSyx provides many benefits for a robust and scalable infrastructure for digital twins, and integrates numerous applications that support many kinds of digitization tasks."
 ---
 
 Our mission is to simplify the digitization of production environments. Eclipse BaSyx provides a robust and scalable infrastructure for digital twins, and integrate numerous applications that support many kinds of digitization tasks. This includes components to create, monitor, and host Asset Administration Shells (AAS), integrate them with their real-world assets and provide easy-to-use dashboards. The Eclipse BaSyx Data Bridge connects AAS with assets to create Digital Twins that represent the asset state at all times, and optionally enables controlling of assets and processes. The Eclipse BaSyx AAS Web UI visualizes AAS out of the box – optionally, add custom visualizations by leveraging its plugin mechanism.

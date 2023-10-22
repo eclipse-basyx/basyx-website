@@ -6,6 +6,7 @@ banner: "img/reference-projects/referenzprojekt-sartorius-istock-gorodenkoff-fra
 img_source: "© iStock.com/gorodenkoff"
 cover_summary: "In close cooperation with Fraunhofer IESE, Sartorius used Eclipse BaSyx to develop a modern system architecture with asset administration shells that supports the manufacturing of a high number of product variants. By using the standard components of Eclipse BaSyx, rapid success was achieved and a modular, versioned and flexible production was developed in an efficient and standardized approach."
 weight: 3
+description: "Leveraging Eclipse BaSyx and Asset Administration Shells for a modular und flexible production"
 ---
 
 <div class="row">

@@ -5,6 +5,7 @@ website: "https://www.sick.com/de/de/"
 banner: "img/reference-projects/sick_production.png"
 #subtitle: ""
 weight: 4
+description: "Eclipse BaSyx enables the creation a harmonized data space for an efficient intra-logistics"
 ---
 
 <div class="row">

@@ -405,6 +405,23 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
         <p class="pale"><b>Feel free to contact us:</b><br/><a>Jayadev@industryapps.net</a><br/><a>ssk@industryapps.net</a></p>
     </div>
   </li>
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/Trustsec_logo.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Services:</b> <br/>
+          - Zeitplanungssysteme für Equipment<br/>
+          - Zeitplanungssysteme für Linien<br/>
+          - Zeitplanungssysteme für Shopfloor
+      </p>
+    </div>
+    <div class="excerpt">
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>basys@trustsec.de</a></p>
+    </div>
+  </li>
 </ul>
 
 <div class="row">

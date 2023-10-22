@@ -4,6 +4,7 @@ title: "About"
 #date-update: 2022-07-18T10:08:18+01:00
 draft: false
 type: about
+description: "Eclipse BaSyx is the open source platform which implements the Asset Administration Shell as the german standardized digital twin."
 ---
 
 ### What is BaSyx
@@ -11,7 +12,7 @@ type: about
 <div align="justify">
 
 	<p class="lead">
-	Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin.  
+	Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized <a href="https://www.iese.fraunhofer.de/en/services/digital-twin.html" target="_blank">digital twin</a>.  
 	Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.0.
 	
 	<br><br>

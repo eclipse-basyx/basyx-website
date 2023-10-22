@@ -108,9 +108,21 @@ paginate = 10
     parent = "getting-started"
 
 [[menu.main]]
+    name = "GIT Repository"
+    url  = "https://github.com/eclipse-basyx"
+    weight = 2
+    parent = "getting-started"
+
+[[menu.main]]
+    name = "Docker Hub"
+    url  = "https://hub.docker.com/search?q=eclipsebasyx"
+    weight = 3
+    parent = "getting-started"
+
+[[menu.main]]
     name = "Open Hour"
     url  = "https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html"
-    weight = 2
+    weight = 4
     parent = "getting-started"
 
 [[menu.main]]
@@ -208,9 +220,9 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "Admin"
-    defaultKeywords = ["industrie 4.0", "iot", "basys 4.0", "basys 4.2", "basyx", "smart production", "digitalization", "cyber physical systems", "BaSyx offers", "Digital Twin", "Asset Administration Shell"]
-    defaultDescription = "Eclipse BaSyx Community Website"
+    author = "Fraunhofer IESE"
+    defaultKeywords = ["basyx", "eclipse basyx", "Asset Administration Shell", "verwaltungsschale digitaler zwilling", "basys 4.0", "basys 4.2", "shopfloor digitalization", "digital twins for production systems", "implementation of Digital Twin"]
+    defaultDescription = "Eclipse BaSyx is the most versatile, extensible, and feature-packed open-source software for working with Asset Administration Shells"
     custom_css = ["css/custom.css"]
 
     # Google Maps API key (if not set will default to not passing a key.)

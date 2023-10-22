@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}</title>
   <meta name="author" content="{{ .Site.Author.name }}" />
+  
+  {{ if .IsHome }}
+  <title>{{ .Title }}</title>
+  {{ else }}
+    {{ if .Params.seoTitle }}
+      <title>Eclipse BaSyx | {{ .Params.seoTitle }}</title>
+    {{ else }}
+      <title>Eclipse BaSyx | {{ .Title }}</title>
+    {{ end }}	
+  {{ end }}
 
   {{ if .Keywords }}
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
@@ -15,7 +25,7 @@
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}">
   {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">	
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
   {{ end }}
 
   {{ .Hugo.Generator }}

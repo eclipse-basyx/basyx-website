@@ -7,6 +7,7 @@ img_source: "© ZF Friedrichshafen AG"
 cover_summary: "Flexibility and faster changes with Eclipse BaSyx – ZF Friedrichshafen AG is using Eclipse BaSyx to react quickly to changes. ZF experts integrated Eclipse BaSyx in a prototype manufacturing line, including digital twins and lot size one manufacturing. Now, changing the automated manufacturing process can happen in only a few minutes. This efficient adaptation enables the efficient production also of smallest lot sizes. Furthermore, the integration of new devices into the process is now 30% percent faster, compared to the traditional automation used before."
 link_reference: "https://www.produktion.de/technik/digitalisierung-bei-zf-neue-methode-spart-30-prozent-zeit-112.html"
 weight: 1
+description: "More Flexible and faster commissioning with Eclipse BaSyx"
 ---
 
 

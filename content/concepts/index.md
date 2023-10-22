@@ -3,6 +3,7 @@ title: "Concepts"
 #date: 2022-07-22T08:08:18+01:00
 draft: false
 type: concepts
+description: "Eclipse BaSyx enables users to host Asset Administration Shells, referencing AAS Submodels, and it also allows data exchange and interoperability between MES and ERP systems."
 ---
 
 <!-- ![AAS Holistic ilustration alt](images/holistic_aas.png) -->

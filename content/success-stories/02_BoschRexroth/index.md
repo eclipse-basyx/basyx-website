@@ -5,6 +5,7 @@ banner: "img/reference-projects/BoschRexroth-UlmCustomerCenter.jpg"
 img_source: "© Bosch Rexroth"
 cover_summary: "Next generation manufacturing showcase: Robert Bosch GmbH was involved from the beginning in the development of the Eclipse BaSyx middleware. The Bosch Customer Experience Center CU.BE in Ulm showcases the potential of Eclipse BaSyx together with revolutionary solutions of Robert Bosch GmbH and Bosch Rexroth AG to realize next generation manufacturing."
 weight: 2
+description: "Next generation manufacturing with Eclipse BaSyx"
 ---
 
 <div class="row">

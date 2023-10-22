@@ -3,6 +3,8 @@ title: "Integrated Applications"
 #date: 2022-07-22T08:08:18+01:00
 draft: false
 type: benefits
+seoTitle: "Benefits Integrated Applications"
+description: "Eclipse BaSyx offers integration with Eclipse Streamsheets, integration with Grafana to monitor data in realtime, and also supports integration with NodeRed enabling creation of event-driven applications."
 
 ---
 

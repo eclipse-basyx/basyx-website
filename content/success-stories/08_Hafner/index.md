@@ -7,6 +7,7 @@ banner: "img/reference-projects/haerner_precision_tools.png"
 img_source: "© HÄFNER Präzisionsteile Oberrot GmbH"
 cover_summary: "System modernisation and data exchange with the help of Eclipse BaSyx: HÄFNER Präzisionsteile Oberrot GmbH is a producer of high-precision weights in individual to small series production. This requires a frequent data exchange with customers. HÄFNER Präzisionsteile Oberrot GmbH used Eclipse BaSyx to create Digital Twins based on Asset Administration Shells (AAS) that were shared with customers to improve the data flow. This yielded quality improvements and also improved communication between stakeholders."
 weight: 8
+description: "System modernisation and data exchange with the help of Eclipse BaSyx"
 ---
  
 <div class="row">

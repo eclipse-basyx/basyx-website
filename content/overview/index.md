@@ -3,6 +3,8 @@ title: "Overview"
 #date: 2022-07-22T08:08:18+01:00
 draft: false
 type: overview
+seoTitle: "Ecosystem"
+description: "Eclipse BaSyx is embedded into an ever-growing Ecosystem of Partners."
 
 ---
 

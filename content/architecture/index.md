@@ -3,6 +3,7 @@ title: "Architecture"
 #date: 2022-07-25
 draft: false
 type: architecture
+description: "Eclipse BaSyx realizes a virtual manufacturing plant. It connects all digital twins to a virtual communication bus that enables end-to-end connectivity across layers, and optionally across companies."
 
 ---
 
