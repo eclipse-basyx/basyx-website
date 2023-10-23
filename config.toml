@@ -108,13 +108,13 @@ paginate = 10
     parent = "getting-started"
 
 [[menu.main]]
-    name = "GIT Repository"
+    name = "Download Source Code"
     url  = "https://github.com/eclipse-basyx"
     weight = 2
     parent = "getting-started"
 
 [[menu.main]]
-    name = "Docker Hub"
+    name = "Download Containers"
     url  = "https://hub.docker.com/search?q=eclipsebasyx"
     weight = 3
     parent = "getting-started"
