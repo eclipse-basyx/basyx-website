@@ -408,14 +408,14 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
   <li class="custom_post_item">
     <div class="image img-center" style="height:80px;">
       <a href="#">
-          <img src="images/Trustsec_logo.png" class="img-responsive" alt="">
+          <img src="images/trustsec_logo.png" class="img-responsive" alt="">
       </a>
     </div>
     <div class="excerpt">
       <p class="pale"><b>Services:</b> <br/>
-          - Zeitplanungssysteme für Equipment<br/>
-          - Zeitplanungssysteme für Linien<br/>
-          - Zeitplanungssysteme für Shopfloor
+          - Scheduling Systems for Equipment<br/>
+          - Scheduling Systems for Production Lines<br/>
+          - Scheduling Systems for Shopfloor
       </p>
     </div>
     <div class="excerpt">
