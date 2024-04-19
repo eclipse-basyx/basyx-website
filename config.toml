@@ -180,13 +180,12 @@ paginate = 10
 [[menu.main]]
     identifier = "contributing"
     name = "Contributing"
-    url  = "https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing"
+    url  = "https://wiki.basyx.org/en/latest/content/user_documentation/developer/contributing.html"
     weight = 3
     parent = "developer"
 
 [[menu.main]]
     name = "Wiki"
-	#url  = "https://wiki.eclipse.org/BaSyx"
     url = "https://wiki.basyx.org/en/latest/"
     weight = 4 
     target = "_blank"
