@@ -74,6 +74,11 @@ paginate = 10
     weight = 30
 
 [[menu.main]]
+    name = "AAS Dataspace"
+    url  = "https://www.iese.fraunhofer.de/en/solution/dataspace.html"
+    weight = 31
+    
+[[menu.main]]
     identifier = "overview"
 	name = "Overview"
 	url  = "/overview/"

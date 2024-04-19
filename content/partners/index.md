@@ -423,6 +423,25 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
     </div>
   </li>
 </ul>
+<ul class="custom_posts" id="posts">
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/Flecs_logo.svg" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Products:</b> <br/>
+          - Open-Source App Store<br/>
+          - eCommerce platform for machine integration<br/>
+          - AAS integration for supported systems
+      </p>
+    </div>
+    <div class="excerpt">
+        <p class="pale"><b>Feel free to contact us:</b><br/><a>sam@flecs.tech</a><br/><a>patric@flecs.tech</a></p>
+    </div>
+  </li>
+</ul>
 
 <div class="row">
     <div class="heading text-center"><h3>Tooling</h3></div>
