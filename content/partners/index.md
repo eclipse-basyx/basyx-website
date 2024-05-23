@@ -288,7 +288,7 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
               - Setting up and adapting AAS<br/>
               - Software projects
       </p>
-      <p class="pale"><b>Feel free to contact us:</b><br/><a>hanna.schier@meta-level.de</a>; <a>peter.raber@meta-level.de</a></p>
+      <p class="pale"><b>Feel free to contact us:</b><br/><a>peter.raber@meta-level.de</a></p>
     </div>
   </li>  
   <li class="custom_post_item">
@@ -478,7 +478,7 @@ Our Partners offer tools and solutions to realize Industry 4.0 with Eclipse BaSy
           - <a href="https://www.meta-level.de/en/products/aas-suite-en/" target="_blank" class="external">AAS Suite with AAS Designer</a><br/>
           - <a href="https://www.meta-level.de/en/products/aas-suite-en/" target="_blank" class="external">AAS Marketplace</a>
       </p>
-      <p class="pale"><b>Feel free to contact us:</b><br/><a>hanna.schier@meta-level.de</a>; <a>peter.raber@meta-level.de</a></p>
+      <p class="pale"><b>Feel free to contact us:</b><br/><a>peter.raber@meta-level.de</a></p>
     </div>
   </li> 
   <li class="custom_post_item">
