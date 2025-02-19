@@ -441,6 +441,23 @@ Integrating Eclipse BaSyx with existing systems, devices and production environm
         <p class="pale"><b>Feel free to contact us:</b><br/><a>sam@flecs.tech</a><br/><a>patric@flecs.tech</a></p>
     </div>
   </li>
+  <li class="custom_post_item">
+      <div class="image img-center" style="height:80px;">
+        <a href="#">
+            <img src="images/Logo_MMC.png" class="img-responsive" alt="">
+        </a>
+      </div>
+      <div class="excerpt">
+        <p class="pale"><b>Services:</b> <br/>
+            -	Industrie 4.0-Readiness-Assesment<br/>
+            -	Creation of Industrie 4.0 implementation strategies based on Basyx<br/>
+            -	Realization of specialized AAS solutions
+        </p>
+      </div>
+      <div class="excerpt">
+          <p class="pale"><b>Feel free to contact us:</b><br/><a>info@twinedge.de</a></p>
+      </div>
+  </li>
 </ul>
 
 <div class="row">
@@ -507,6 +524,22 @@ Our Partners offer tools and solutions to realize Industry 4.0 with Eclipse BaSy
     </div>
     <div class="excerpt">
         <p class="pale"><b>Feel free to contact us:</b><br/><a>info@xitaso.com</a></p>
+    </div>
+  </li> 
+</ul>
+<ul class="custom_posts" id="posts">
+  <li class="custom_post_item">
+    <div class="image img-center" style="height:80px;">
+      <a href="#">
+          <img src="images/Logo_MMC.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="excerpt">
+      <p class="pale"><b>Solution:</b> <br/>
+          - <a href="https://twinedge.de/" target="_blank" class="external">TwinEdge, the AAS-Enabled IIoT Edge Gateway</a><br/>
+          - Retrofitting of digital twins for existing machines
+      </p>
+      <p class="pale"><b>Feel free to contact us:</b><br/><a>info@twinedge.de</a></p>
     </div>
   </li> 
 </ul>
